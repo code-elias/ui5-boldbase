@@ -2,6 +2,7 @@ const sandbox = {
   test() {
     console.log('API TEST')
     this.testFunction()
+    outerFunction()
   },
 
   testFunction() {
@@ -13,3 +14,7 @@ sap.ui.define([], function () {
   'use strict'
   return sandbox
 })
+
+function outerFunction() {
+  console.log('Outer Function')
+}
