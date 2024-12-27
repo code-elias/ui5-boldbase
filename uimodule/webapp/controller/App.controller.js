@@ -9,19 +9,18 @@ sap.ui.define(
       onInit: function () {
         oController = this
 
-        this.userSet({}, true) //svuoto all'inizio per far scattare il metodo visibleLogin
+        this.userSet({}, true)
 
-        //viene richiamato da tutte le rotte (utilizzare questo al posto che quello sui vari controller)
+        // Called by all new Views
         this.oRouter = this.getOwnerComponent().getRouter()
         this.oRouter.attachRouteMatched(this.onRouteMatched, this)
         this.oRouter.attachBeforeRouteMatched(this.onBeforeRouteMatched, this)
       },
 
       onBeforeRouteMatched: function (oEvent) {
-        var oModel = this.getOwnerComponent().getModel()
-
-        var oNextUIState = this.getOwnerComponent().getHelper().getNextUIState(0),
-          sLayout = oNextUIState.layout
+        const oModel = this.getOwnerComponent().getModel()
+        const oNextUIState = this.getOwnerComponent().getHelper().getNextUIState(0)
+        const sLayout = oNextUIState.layout
 
         // Update the layout of the FlexibleColumnLayout
         if (sLayout) {
@@ -30,25 +29,25 @@ sap.ui.define(
       },
 
       onRouteMatched: function (oEvent) {
-        var sRouteName = oEvent.getParameter('name'),
-          oArguments = oEvent.getParameter('arguments'),
-          validUser = true
+        const sRouteName = oEvent.getParameter('name')
+        const oArguments = oEvent.getParameter('arguments')
+        let validUser = true
 
-        //Verifico l'utente e se non settato torno alla schermata di login
-        this.userCheck(sRouteName).then(
-          function () {
-            this._updateUIElements()
+        // Skip user validation
+        // this.userCheck(sRouteName).then(
+        //   function () {
+        //     this._updateUIElements()
 
-            var shellBar = this.byId('shellBar')
+        //     var shellBar = this.byId('shellBar')
 
-            //mostro la NavBar solo all'occorrenza
-            if (sRouteName == 'login' || sRouteName == 'home') {
-              shellBar.setShowNavButton(false)
-            } else {
-              shellBar.setShowNavButton(true)
-            }
-          }.bind(this)
-        )
+        //     //mostro la NavBar solo all'occorrenza
+        //     if (sRouteName == 'login' || sRouteName == 'home') {
+        //       shellBar.setShowNavButton(false)
+        //     } else {
+        //       shellBar.setShowNavButton(true)
+        //     }
+        //   }.bind(this)
+        // )
 
         // Save the current route name
         this.currentRouteName = sRouteName
@@ -79,12 +78,6 @@ sap.ui.define(
       },
 
       getUserInitial: function (user) {
-        console.log('getUserInitial')
-        /*
-                Funzione che ritorna l'iniziale dell'utente (solo se esiste)
-                - Se spazio: iniziale prima parola + iniziale seconda parola
-                - Se non spazio: iniziale prima parola
-            */
         try {
           if (user.user.UserName) {
             var initial1 = '',
@@ -104,6 +97,7 @@ sap.ui.define(
           }
         } catch (e) {}
       },
+
       onAvatarPress: function (oEvent) {
         //Mostro i menu utente solamente se non sono sulla login
         if (this.currentRouteName != 'login') {
@@ -129,8 +123,8 @@ sap.ui.define(
           }
         }
       },
+
       visibleLogin: function (user) {
-        //Mostro gli oggetti solo se l'utente è valorizzato
         return user ? true : false
       }
     })

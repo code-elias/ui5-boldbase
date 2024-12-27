@@ -1,9 +1,10 @@
-window.API_DOMAIN = 'http://localhost:54001'
-// window.API_DOMAIN = 'http://localhost:54852';
-// window.API_TEST = 'http://localhost:54851';
+window.API_PROD = ''
+window.API_DEBUG = 'http://localhost:54001'
+window.API_DOMAIN = API_DEBUG
+
 window.API = {
   user: {
-    login: API_DOMAIN + '/api/Login',
+    LOGIN: API_DOMAIN + '/api/Login',
     logout: API_DOMAIN + '/api/LogOut',
     checksession: API_DOMAIN + '/api/Login/CheckSession'
   },

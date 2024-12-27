@@ -196,7 +196,7 @@ sap.ui.define(
 
         this.getView().byId(idPage).insertContent(oMessageStrip, 0)
       },
-      pulisciMessageStrip: function () {
+      resetMessageStrip: function () {
         var listaMessageStrip = document.getElementsByClassName('sapMMsgStrip')
         for (var index = 0; index < listaMessageStrip.length; index++) {
           var element = sap.ui.getCore().byId(listaMessageStrip[index].id)
