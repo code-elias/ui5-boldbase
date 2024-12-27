@@ -1,0 +1,19 @@
+{
+    "list": [
+        {
+            "ID": 1,
+            "Name": "Random Name 1",
+            "Description": "Random Description 1"
+        },
+        {
+            "ID": 2,
+            "Name": "Random Name 2",
+            "Description": "Random Description 2"
+        },
+        {
+            "ID": 3,
+            "Name": "Random Name 3",
+            "Description": "Random Description 3"
+        }
+    ]
+}

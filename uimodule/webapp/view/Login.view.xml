@@ -1,0 +1,136 @@
+<mvc:View
+  controllerName="eligolam.boldbase.controller.Login"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:card="sap.f.cards"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:l="sap.ui.layout"
+  xmlns:core="sap.ui.core"
+  xmlns:u="sap.ui.unified"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:tnt="sap.tnt"
+>
+  <!-- LOGIN PAGE -->
+  <Page
+    id="loginPage"
+    showHeader="false"
+  >
+    <content>
+      <VBox
+        id="loginContainer"
+        height="100%"
+        alignItems="Center"
+        justifyContent="Center"
+      >
+        <HBox
+          id="logoContainer"
+          class="sapUiResponsiveContentPadding sapUiResponsiveMargin"
+          alignItems="Center"
+          justifyContent="Center"
+        >
+          <items>
+            <Image
+              id="loginLogo"
+              src="{
+              value: 'eligolam/boldbase/img/BoldBase.webp',
+              formatter: 'sap.ui.require.toUrl'
+            }"
+              alt="BoldBase Logo"
+              decorative="true"
+              width="20rem"
+              class="center-image"
+            />
+          </items>
+        </HBox>
+
+        <VBox
+          id="loginBoxContainer"
+          class="sapUiResponsiveContentPadding"
+          alignItems="Center"
+          justifyContent="Center"
+        >
+          <items>
+            <Panel
+              id="loginBox"
+              width="auto"
+              class="sapUiResponsiveContentPadding"
+            >
+              <headerToolbar>
+                <OverflowToolbar
+                  id="LoginTitleContainer"
+                  class="p-4"
+                >
+                  <Title
+                    id="LoginTitle"
+                    level="H2"
+                    text="Login"
+                    wrapping="true"
+                    textAlign="Center"
+                    class="sapMH3FontSize"
+                    width="100%"
+                  />
+                </OverflowToolbar>
+              </headerToolbar>
+
+              <content>
+                <Input
+                  id="inputUsername"
+                  type="Text"
+                  class="sapUiSmallMarginBottom"
+                  placeholder="{i18n>USERNAME}"
+                  liveChange="onLiveChange"
+                  submit="onUsernameSubmit"
+                />
+                <Input
+                  id="inputPassword"
+                  type="Password"
+                  class="sapUiSmallMarginBottom"
+                  placeholder="{i18n>PASSWORD}"
+                  submit="onLogin"
+                  liveChange="onLiveChange"
+                />
+                <HBox
+                  id="buttonLoginContainer"
+                  width="100%"
+                  alignItems="Center"
+                  justifyContent="Center"
+                >
+                  <items>
+                    <Button
+                      id="buttonLogin"
+                      text="{i18n>LOGIN}"
+                      press="onLogin"
+                      class="sapUiTinyMarginTopBottom"
+                      type="Emphasized"
+                      width="100%"
+                    />
+                  </items>
+                </HBox>
+              </content>
+            </Panel>
+          </items>
+        </VBox>
+        <HBox
+          id="authorLogo"
+          class="sapUiResponsiveContentPadding sapUiSmallMarginTop"
+          alignItems="Center"
+          justifyContent="Center"
+        >
+          <items>
+            <Image
+              id="AuthorLogo"
+              src="{
+							value: 'eligolam/boldbase/img/CodeElias.webp',
+							formatter: 'sap.ui.require.toUrl'
+						}"
+              alt="Code Elias Logo"
+              decorative="true"
+              width="15rem"
+              class="center-image"
+            />
+          </items>
+        </HBox>
+      </VBox>
+    </content>
+  </Page>
+</mvc:View>

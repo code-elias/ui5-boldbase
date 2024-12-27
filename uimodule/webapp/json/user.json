@@ -1,0 +1,18 @@
+{
+    "Stato": 1,
+    "Codice": "LogonToSap",
+    "Descrizione": "Credenziali valide",
+    "user": {
+        "UserName": "manager",
+        "Name": "manager",
+        "UserCode": "1",
+        "CompanyName": "AROMATAGROUP SRL con socio unico",
+        "Company": "SBOAROMATA",
+        "SuperUser": "Y"
+    },
+    "CompanyName": "AROMATAGROUP SRL con socio unico",
+    "FullUserName": "manager",
+    "UserName": "manager",
+    "UserCode": "1",
+    "MsgErrore": ""
+}

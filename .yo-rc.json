@@ -1,0 +1,18 @@
+{
+  "generator-template-ui5-project": {
+    "projectname": "boldbase",
+    "namespaceUI5": "eligolam",
+    "enableFPM": false,
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "ui5libs": "Content delivery network (SAPUI5)",
+    "newdir": true,
+    "codeassist": true,
+    "initrepo": true,
+    "namespaceURI": "eligolam",
+    "opa5pos": ["Main"],
+    "opa5Journeys": ["Main"],
+    "uimodules": ["uimodule"],
+    "setupCompleted": true
+  }
+}

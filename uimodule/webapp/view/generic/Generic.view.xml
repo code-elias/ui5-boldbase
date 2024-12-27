@@ -1,0 +1,12 @@
+<mvc:View 
+  controllerName="eligolam.boldbase.controller.generic.Generic" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.uxap" 
+  xmlns:m="sap.m" 
+  xmlns:core="sap.ui.core" 
+  xmlns:layout="sap.ui.layout"
+>
+  <m:Page id="Generic_page" title="PROVA">
+
+  </m:Page>
+</mvc:View>

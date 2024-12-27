@@ -1,0 +1,20 @@
+{
+  "debugInfo": {
+    "database": "NONE",
+    "isProduction": false
+  },
+  "response": {
+    "user": {
+      "UserName": "TestAdmin",
+      "Name": "Test Admin",
+      "UserCode": "0001",
+      "CompanyName": "Brain System SRL",
+      "SuperUser": "Y"
+    },
+    "company": {
+      "CompanyName": "Brain System SRL",
+      "Company": "EliGolam"
+    }
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im1hbmFnZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiVXNlclBhcmFtXCI6e1wiVXNlck5hbWVcIjpcIm1hbmFnZXJcIixcIlBhc3N3b3JkXCI6XCJXZWxjb21lMDJcIixcIkNvbXBhbnlEQlwiOlwiQlhQUk9fQ09MTEFVRE9cIixcIkxhbmd1YWdlXCI6XCIxM1wifSxcIlNhcENvb2tpZXNcIjpbe1wiTmFtZVwiOlwiQjFTRVNTSU9OXCIsXCJWYWx1ZVwiOlwiODU2ZjUyMzItYTdjMi0xMWVkLTgwMDAtMDA1MDU2YmQ4MTBmXCIsXCJQYXRoXCI6XCIvYjFzL3YyL1wiLFwiRG9tYWluXCI6XCJoYW5hZGV2M1wifSx7XCJOYW1lXCI6XCJST1VURUlEXCIsXCJWYWx1ZVwiOlwiLm5vZGUyXCIsXCJQYXRoXCI6XCIvYjFzL3YyL1wiLFwiRG9tYWluXCI6XCJoYW5hZGV2M1wifV0sXCJDVVJSRU5UX1NFU1NJT05fSURcIjpcIjZjNmI5OGVhLThmZTktNDllMi1iMzlhLWU3ZGJjY2Y4ZjNjY1wiLFwiVXNlclwiOntcIkludGVybmFsS2V5XCI6MSxcIlVzZXJQYXNzd29yZFwiOm51bGwsXCJVc2VyQ29kZVwiOlwibWFuYWdlclwiLFwiVXNlck5hbWVcIjpcIm1hbmFnZXIgZVwiLFwiU3VwZXJ1c2VyXCI6XCJ0WUVTXCIsXCJlTWFpbFwiOlwiMTExMVwifSxcIkNvbXBhbnlcIjp7XCJDb21wbnlOYW1lXCI6XCIqKkJYUFJPIFdFQiAtIENPTExBVURPIC0gTkFWVEVTVDIqKlwifX0iLCJuYmYiOjE2NzU4Njg5NDIsImV4cCI6MTY3NTg3NDk0MiwiaWF0IjoxNjc1ODY4OTQyfQ.NoJdNB1lUEyL502H6PEYnQYombEjFDfwk2G7WhJb_bI"
+}

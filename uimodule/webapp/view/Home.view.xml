@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="eligolam.boldbase.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.uxap"
+    xmlns:m="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+>
+    <ObjectPageLayout
+        id="Homepage"
+        upperCaseAnchorBar="false"
+        showHeaderContent="false"
+        backgroundDesignAnchorBar="Transparent"
+    >
+        <!-- Object Page Sections contain the Body of the page -->
+        <sections>
+            <core:Fragment
+                type="XML"
+                fragmentName="eligolam.boldbase.fragment.Home.Section_Generic"
+            />
+
+            <core:Fragment
+                type="XML"
+                fragmentName="eligolam.boldbase.fragment.Home.Section_Test"
+            />
+        </sections>
+    </ObjectPageLayout>
+</mvc:View>

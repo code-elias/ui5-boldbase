@@ -1,0 +1,111 @@
+{
+    "status": "OK",
+    "SBOAROMATA": {
+        "webapps": {
+            "WEBPORTAL": {
+                "featuresList": [
+                    {
+                        "id": 1,
+                        "name": "Sales",
+                        "description": "Sales Description" ,
+                        "enabled": 1
+                    }, 
+                    {
+                        "id": 2,
+                        "name": "Logistics", 
+                        "description": "Logistics Description",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 5,
+                        "name": "Disabled Feature", 
+                        "description": "Description goes here",
+                        "enabled": 0
+                    },
+                    {
+                        "id": 6,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 6,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 7,
+                        "name": "Disabled Feature", 
+                        "description": "Description goes here",
+                        "enabled": 0
+                    },
+                    {
+                        "id": 8,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    }
+                ]
+            },
+            "LMA": {
+                "featuresList": [
+                    {
+                        "id": 3,
+                        "name": "Agent", 
+                        "description": "Agent Description",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 4,
+                        "name": "Request",
+                        "description": "Request Description",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 10,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 11,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 12,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    },
+                    {
+                        "id": 13,
+                        "name": "Disabled Feature", 
+                        "description": "Description goes here",
+                        "enabled": 0
+                    },
+                    {
+                        "id": 14,
+                        "name": "Disabled Feature", 
+                        "description": "Description goes here",
+                        "enabled": 0
+                    },
+                    {
+                        "id": 15,
+                        "name": "Disabled Feature", 
+                        "description": "Description goes here",
+                        "enabled": 0
+                    },
+                    {
+                        "id": 16,
+                        "name": "Another Feature", 
+                        "description": "Description goes here",
+                        "enabled": 1
+                    }
+                ]
+            }
+        }
+    }
+}

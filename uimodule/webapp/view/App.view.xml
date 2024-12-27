@@ -1,0 +1,79 @@
+<mvc:View
+  controllerName="eligolam.boldbase.controller.App"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true"
+  height="100%"
+>
+  <Shell
+    id="AppShell"
+    appWidthLimited="false"
+    title="Brain System"
+  >
+    <app>
+      <App id="App">
+        <pages>
+          <!-- MAIN PAGE CONTENT -->
+          <Page id="AppPage">
+            <customHeader>
+              <!-- SHELLBAR -->
+              <f:ShellBar
+                id="AppShellBar"
+                title="{i18n>APP_DESCRIPTION}"
+                secondTitle="{i18n>APP_AUTHOR}"
+                homeIcon="{
+									value: 'eligolam/boldbase/img/BoldBase_Icon.webp',
+									formatter: 'sap.ui.require.toUrl'
+								}"
+                homeIconPressed="onHandlePress('home')"
+                showNavButton="false"
+                navButtonPressed="onNavBack"
+                avatarPressed="onAvatarPress"
+                class="sapUiResponsiveContentPadding"
+              >
+                <!-- ShellBar Menu -->
+                <!-- <f:menu>
+										<Menu id="menuGroup">
+												<MenuItem
+														id="menuHome"
+														text="{i18n>HOME}"
+														icon="sap-icon://home"
+														visible="{parts: [{ path:'user>/' }], formatter:'.visibleLogin'}"
+														press="onHandlePress('home')"
+												/>
+												<MenuItem
+														id="menuGeneric"
+														text="{i18n>GENERIC_TILE}"
+														icon="sap-icon://accept"
+														visible="{parts: [{ path:'user>/' }], formatter:'.visibleLogin'}"
+														press="onHandlePress('generic')"
+												/>
+										</Menu>
+								</f:menu> -->
+
+                <!-- AVATAR -->
+                <f:profile>
+                  <Avatar
+                    id="AppAvatar"
+                    initials="{parts: [{ path:'user>/' }],formatter:'.getUserInitial'}"
+                    backgroundColor="Accent7"
+                  />
+                </f:profile>
+              </f:ShellBar>
+            </customHeader>
+            <content>
+              <!-- FLEXIBLE CONTAINER FOR MULTIPLE VIEWS -->
+              <f:FlexibleColumnLayout
+                id="fcl"
+                stateChange="onStateChanged"
+                layout="{/layout}"
+                backgroundDesign="Solid"
+              />
+            </content>
+          </Page>
+        </pages>
+      </App>
+    </app>
+  </Shell>
+</mvc:View>

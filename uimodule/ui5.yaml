@@ -1,0 +1,34 @@
+specVersion: '3.2'
+metadata:
+  name: boldbase
+type: application
+resources:
+  configuration:
+    paths:
+      webapp: uimodule/webapp
+framework:
+  name: SAPUI5
+  version: '1.120.24'
+  libraries:
+    - name: sap.f
+    - name: sap.m
+    - name: sap.tnt
+    - name: sap.ui.core
+    - name: sap.ui.layout
+    - name: sap.uxap
+    - name: themelib_sap_horizon
+builder:
+  cachebuster:
+    signatureType: hash
+  customTasks:
+    - name: ui5-task-cachebuster-indexing
+      afterTask: generateCachebusterInfo
+server:
+  customMiddleware:
+    - name: ui5-middleware-livereload
+      afterMiddleware: compression
+      configuration:
+        debug: true
+        extraExts: 'xml,json,properties'
+        port: 35750
+        watchPath: 'uimodule/webapp'

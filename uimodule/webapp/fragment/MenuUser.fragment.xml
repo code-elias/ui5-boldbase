@@ -1,0 +1,8 @@
+<core:FragmentDefinition
+	  xmlns:mvc="sap.ui.core.mvc"
+	  xmlns="sap.m"
+		xmlns:core="sap.ui.core">
+    <Menu id="generalMenu">
+      <MenuItem id="logoutMenu" text="{i18n>LOGOUT}" icon="sap-icon://log" press="onLogout"/>
+    </Menu>   
+</core:FragmentDefinition>  

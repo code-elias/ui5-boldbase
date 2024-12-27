@@ -1,0 +1,41 @@
+{
+  "name": "boldbase",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ui5 serve --config=uimodule/ui5.yaml -p 8085",
+    "start:open": "ui5 serve --config=uimodule/ui5.yaml  --open index.html",
+    "build:ui": "run-s  build:uimodule",
+    "test": "run-s lint karma",
+    "karma-ci": "karma start karma-ci.conf.js",
+    "karma": "run-s clearCoverage karma-ci",
+    "lint": "eslint ./**/webapp/**/*.js && prettier --plugin-search-dir=. --check ./**/webapp/**/*.{js,xml}",
+    "lint-fix": "eslint ./**/webapp/**/*.js --fix && prettier --plugin-search-dir=. --write ./**/webapp/**/*.{js,xml} --no-error-on-unmatched-pattern",
+    "serve:uimodule": "ui5 serve --config=uimodule/ui5.yaml",
+    "build:uimodule": "ui5 build --config=uimodule/ui5.yaml --clean-dest --dest uimodule/dist -a --include-task=generateManifestBundle --include-task=generateCachebusterInfp"
+  },
+  "devDependencies": {
+    "@sapui5/ts-types": "^1.108.0",
+    "@ui5/builder": "^4.0.5",
+    "@ui5/cli": "^4.0.12",
+    "eslint": "^9.17.0",
+    "karma": "^6.3.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.1.0",
+    "karma-ui5": "^4.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "3.4.2",
+    "ui5-middleware-livereload": "^3.1.0",
+    "ui5-middleware-simpleproxy": "^3.3.1",
+    "ui5-task-cachebuster-indexing": "^1.0.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-livereload",
+      "ui5-middleware-simpleproxy",
+      "ui5-task-cachebuster-indexing"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

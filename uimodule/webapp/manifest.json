@@ -1,0 +1,139 @@
+{
+  "_version": "1.1.0",
+  "sap.app": {
+    "id": "eligolam.boldbase",
+    "type": "application",
+    "i18n": {
+      "bundleUrl": "i18n/i18n.properties",
+      "supportedLocales": ["it", "en"],
+      "fallbackLocale": "it"
+    },
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "{{APP_TITLE}}",
+    "description": "{{APP_DESCRIPTION}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap-ux/fiori-freestyle-writer:basic",
+      "version": "0.12.8"
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/braintest/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.108.11",
+      "libs": {
+        "sap.m": {},
+        "sap.f": {},
+        "sap.ui.core": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "eligolam.boldbase.i18n.i18n",
+          "supportedLocales": ["it", "en"],
+          "fallbackLocale": "it"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "rootView": {
+      "viewName": "eligolam.boldbase.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "fcl"
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.f.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "eligolam.boldbase.view",
+        "controlId": "fcl",
+        "clearControlAggregation": false
+      },
+      "routes": [
+        {
+          "pattern": ":?query:",
+          "name": "login",
+          "target": ["login"]
+        },
+        {
+          "pattern": "home",
+          "name": "home",
+          "target": ["home"]
+        },
+        {
+          "pattern": "generic",
+          "name": "generic",
+          "target": ["generic"]
+        }
+      ],
+      "targets": {
+        "login": {
+          "viewType": "XML",
+          "transition": "slide",
+          "controlAggregation": "beginColumnPages",
+          "clearControlAggregation": false,
+          "viewId": "login",
+          "viewName": "Login"
+        },
+        "home": {
+          "viewType": "XML",
+          "transition": "slide",
+          "controlAggregation": "beginColumnPages",
+          "clearControlAggregation": false,
+          "viewId": "home",
+          "viewName": "Home"
+        },
+        "generic": {
+          "viewType": "XML",
+          "transition": "slide",
+          "controlAggregation": "beginColumnPages",
+          "clearControlAggregation": false,
+          "viewId": "generic",
+          "viewName": "generic.Generic"
+        }
+      }
+    }
+  }
+}

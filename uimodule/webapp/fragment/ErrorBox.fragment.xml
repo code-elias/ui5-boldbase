@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog
+        id="CustomErrorDialog"
+        title="{= ${ErrorModel>/Title} ? ${ErrorModel>/Title} : ${i18n>ERROR} }"
+        type="Message"
+        state="Error"
+    >
+        <VBox id="ErrorBox_Container">
+            <Text
+                id="mainErrorMessage"
+                text="{ErrorModel>/Message}"
+            />
+
+            <Label
+                id="internalErrorLabel"
+                text="{i18n>SHOW_INTERNAL_ERROR}"
+                class="sapUiSmallMarginTop"
+            />
+            <ExpandableText
+                id="internalErrorText"
+                text="{ErrorModel>/InternalMessage}"
+                overflowMode="InPlace"
+                maxCharacters="15"
+            />
+        </VBox>
+        <endButton>
+            <Button
+                id="btnCloseErrorBox"
+                text="OK"
+                press=".onCloseErrorBox"
+            />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

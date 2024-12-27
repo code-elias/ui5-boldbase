@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BoldBase | by CodeElias</title>
+    <style>
+      html,
+      body,
+      body > div,
+      #container,
+      #container-uiarea {
+        height: 100%;
+      }
+    </style>
+    <script
+      id="sap-ui-bootstrap"
+      src="./resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_horizon_dark"
+      data-sap-ui-resourceroots='{ "eligolam.boldbase": "./" }'
+      data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+      data-sap-ui-bindingsyntax="complex"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-async="true"
+      data-sap-ui-frameOptions="trusted"
+      data-sap-ui-preload="async"
+      data-sap-ui-appCacheBuster="./"
+    ></script>
+
+    <script>
+      sap.ui.getCore().attachInit(function () {
+        jQuery.sap.registerModulePath('eligolam.boldbase.modules', './Modules/')
+
+        jQuery.sap.require('eligolam.boldbase.modules.common')
+        jQuery.sap.require('eligolam.boldbase.libs.jszip')
+        jQuery.sap.require('eligolam.boldbase.libs.xlsx')
+
+        sap.ui.require(['sap/m/Shell', 'sap/ui/core/ComponentContainer', 'jquery.sap.storage'], function (Shell, ComponentContainer) {
+          new Shell({
+            id: 'TemplateShell',
+            app: new ComponentContainer({
+              settings: {
+                id: 'TemplateComponent'
+              },
+              id: 'TemplateContainer',
+              name: 'eligolam.boldbase',
+              height: '100%',
+              async: true,
+              propagateModel: true
+            }),
+            homeIcon: {
+              id: 'shellLogo',
+              favicon: sap.ui.require.toUrl('eligolam/boldbase/img/BoldBase.ico'),
+              precomposed: false // whether the home icons already have some glare effect (for iOS)
+            },
+            appWidthLimited: false,
+            showLogout: false
+          }).placeAt('content')
+        })
+      })
+    </script>
+  </head>
+  <body class="sapUiBody sapUiSizeCompact" id="content"></body>
+</html>

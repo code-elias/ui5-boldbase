@@ -1,0 +1,130 @@
+<core:FragmentDefinition
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.uxap"
+    xmlns:m="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+>
+    <ObjectPageSection
+        id="TestSection"
+        title="{i18n>TEST}"
+        titleUppercase="false"
+    >
+        <subSections>
+            <ObjectPageSubSection id="TestSubSection">
+                <m:HBox
+                    id="TestSubSection_Container"
+                    wrap="Wrap"
+                >
+                    <!-- TILE Test Get -->
+                    <m:GenericTile
+                        id="TestSection_Get"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_GET}"
+                        press=".onHomeTilePress($event, 'testGet', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_Get_Tile">
+                            <core:Icon
+                                id="TestSection_Get_TileIcon"
+                                src="sap-icon://accept"
+                                size="4rem"
+                                color="limegreen"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+
+                    <!-- TILE Test Error 400 -->
+                    <m:GenericTile
+                        id="TestSection_Error400"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_ERROR_400}"
+                        press=".onHomeTilePress($event, 'testError400', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_Error400_Tile">
+                            <core:Icon
+                                id="TestSection_Error400_TileIcon"
+                                src="sap-icon://status-error"
+                                size="4rem"
+                                color="yellow"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+
+                    <!-- TILE Test Error 401 -->
+                    <m:GenericTile
+                        id="TestSection_Error401"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_ERROR_401}"
+                        press=".onHomeTilePress($event, 'testError401', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_Error401_Tile">
+                            <core:Icon
+                                id="TestSection_Error401_TileIcon"
+                                src="sap-icon://status-error"
+                                size="4rem"
+                                color="orange"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+
+                    <!-- TILE Test Error 500 -->
+                    <m:GenericTile
+                        id="TestSection_Error500"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_ERROR_500}"
+                        press=".onHomeTilePress($event, 'testError500', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_Error500_Tile">
+                            <core:Icon
+                                id="TestSection_Error500_TileIcon"
+                                src="sap-icon://status-error"
+                                size="4rem"
+                                color="red"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+
+                    <!-- TILE Test Long Error 400 -->
+                    <m:GenericTile
+                        id="TestSection_LongError400"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_LONG_ERROR_400}"
+                        press=".onHomeTilePress($event, 'testLongError400', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_LongError400_Tile">
+                            <core:Icon
+                                id="TestSection_LongError400_TileIcon"
+                                src="sap-icon://create-form"
+                                size="4rem"
+                                color="yellow"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+
+                    <!-- TILE Test Long Error 500 -->
+                    <m:GenericTile
+                        id="TestSection_LongError500"
+                        class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+                        header="{i18n>TEST_LONG_ERROR_500}"
+                        press=".onHomeTilePress($event, 'testLongError500', false)"
+                        frameType="OneByOne"
+                    >
+                        <m:TileContent id="TestSection_LongError500_Tile">
+                            <core:Icon
+                                id="TestSection_LongError500_TileIcon"
+                                src="sap-icon://create-form"
+                                size="4rem"
+                                color="red"
+                            />
+                        </m:TileContent>
+                    </m:GenericTile>
+                </m:HBox>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</core:FragmentDefinition>
