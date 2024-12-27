@@ -2,13 +2,14 @@ sap.ui.define(
   [
     'eligolam/boldbase/controller/BaseControllerProject',
     'eligolam/boldbase/Modules/api',
+    'eligolam/boldbase/Modules/sandbox',
     'sap/ui/model/json/JSONModel',
     'sap/m/MessageBox',
     'sap/ui/core/BusyIndicator',
     'sap/ui/model/odata/v2/ODataModel'
   ],
 
-  function (BaseController, api, JSONModel, MessageBox, BusyIndicator, ODataModel, Storage) {
+  function (BaseController, api, sandbox, JSONModel, MessageBox, BusyIndicator, ODataModel, Storage) {
     'use strict'
 
     var oController = {}
@@ -31,7 +32,7 @@ sap.ui.define(
 
       _onRouteMatched: function (oEvent) {
         this.resetMessageStrip()
-        api.test()
+        sandbox.test()
       },
 
       onLiveChange: function (oEvent) {
