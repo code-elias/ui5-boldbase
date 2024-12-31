@@ -6,7 +6,11 @@ const sandbox = {
   },
 
   testFunction() {
-    console.log('Inner function')
+    console.log('Test function')
+  },
+
+  innerFunction() {
+    console.log('Inner Function')
   }
 }
 
@@ -17,4 +21,5 @@ sap.ui.define([], function () {
 
 function outerFunction() {
   console.log('Outer Function')
+  sandbox.innerFunction()
 }

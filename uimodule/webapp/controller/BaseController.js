@@ -176,26 +176,18 @@ sap.ui.define(
         oModel.setProperty('/layout', sNextLayout)
         this._updateUIElements()
       },
-      impostaMessageStrip: function (status, text, idPage) {
-        var type = 'Error'
 
-        if (status == 1) {
-          type = 'Success'
-        } else if (status == 0) {
-          type = 'Warning'
-        } else if (status == -1) {
-          type = 'Error'
-        }
-
-        var oMessageStrip = new sap.m.MessageStrip({
+      setMessageStrip: function (status = 'Error', text, idPage) {
+        const oMessageStrip = new sap.m.MessageStrip({
           text: text,
           showCloseButton: true,
           showIcon: true,
-          type: type
+          type: status
         })
 
         this.getView().byId(idPage).insertContent(oMessageStrip, 0)
       },
+
       resetMessageStrip: function () {
         var listaMessageStrip = document.getElementsByClassName('sapMMsgStrip')
         for (var index = 0; index < listaMessageStrip.length; index++) {
@@ -204,6 +196,7 @@ sap.ui.define(
           element.destroy()
         }
       },
+
       getStorage: function (type) {
         //istanzia lo storage della tipologia passata
         return new Storage(type ?? 'local')

@@ -63,7 +63,7 @@
                   <Title
                     id="LoginTitle"
                     level="H2"
-                    text="Login"
+                    text="{i18n>WELCOME}"
                     wrapping="true"
                     textAlign="Center"
                     class="sapMH3FontSize"
