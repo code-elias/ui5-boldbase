@@ -32,7 +32,9 @@
       sap.ui.getCore().attachInit(function () {
         jQuery.sap.registerModulePath('eligolam.boldbase.modules', './Modules/')
 
+        jQuery.sap.require('eligolam.boldbase.modules.settings')
         jQuery.sap.require('eligolam.boldbase.modules.common')
+
         jQuery.sap.require('eligolam.boldbase.libs.jszip')
         jQuery.sap.require('eligolam.boldbase.libs.xlsx')
 

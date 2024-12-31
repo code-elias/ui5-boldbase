@@ -1,0 +1,3 @@
+window.SETTINGS = {
+  isProduction: false
+}

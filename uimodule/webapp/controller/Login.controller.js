@@ -25,8 +25,6 @@ sap.ui.define(
       },
 
       _onRouteMatched(oEvent) {
-        console.log('Loaded Login page')
-
         this.resetMessageStrip()
         sandbox.test()
       },

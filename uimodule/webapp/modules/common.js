@@ -1,6 +1,7 @@
 window.API_PROD = ''
 window.API_DEBUG = 'http://localhost:54001'
-window.API_DOMAIN = API_DEBUG
+
+window.API_DOMAIN = SETTINGS.isProduction ? API_PROD : API_DEBUG
 
 window.API = {
   user: {
