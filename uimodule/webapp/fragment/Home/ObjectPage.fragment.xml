@@ -1,0 +1,54 @@
+<core:FragmentDefinition
+  xmlns:core="sap.ui.core"
+  xmlns="sap.uxap"
+  xmlns:m="sap.m"
+>
+
+  <ObjectPageLayout id="HomePage"
+    headerContentPinned="true"
+  >
+
+    <!-- Header Title -->
+    <headerTitle>
+      <ObjectPageDynamicHeaderTitle id="HomePageTitleContainer">
+
+        <expandedHeading>
+          <m:Title id="HomePageTitle" text="Hi Denise!" />
+        </expandedHeading>
+
+      </ObjectPageDynamicHeaderTitle>
+    </headerTitle>
+
+    <!-- Header Content -->
+    <headerContent></headerContent>
+
+    <!-- Page Sections -->
+    <sections>
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.Section_Test"
+      />
+
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.Section.Timesheet"
+      />
+
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.Section.Production"
+      />
+
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.Section.Project"
+      />
+
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.Section.Employees"
+      />
+    </sections>
+  </ObjectPageLayout>
+
+</core:FragmentDefinition>

@@ -1,0 +1,76 @@
+<core:FragmentDefinition
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.uxap"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:layout="sap.ui.layout"
+>
+  <ObjectPageSection
+    id="employeeSection"
+    title="{i18n>EMPLOYEE}"
+    titleUppercase="false"
+  >
+    <subSections>
+      <ObjectPageSubSection id="employeeSectionSS1">
+        <m:HBox id="employeeTilesContainer">
+          <!-- PERMISSIONS / ROLES -->
+          <m:GenericTile
+            id="permissionsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>EMPLOYEE_PERMISSIONS}"
+            subheader="{i18n>MANAGE_ROLES_PERMS}"
+            press="onHandlePress('permissions')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="permissionsTileContent" footer="{i18n>CLICK_TO_MANAGE}">
+              <core:Icon
+                id="permissionsTileIcon"
+                src="sap-icon://shield"
+                class="tileIconSize"
+                alt="{i18n>PERMISSIONS_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- EMPLOYEES LIST -->
+          <m:GenericTile
+            id="employeesTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>EMPLOYEES}"
+            subheader="{i18n>TOTAL_EMPLOYEES}: 50"
+            press="onHandlePress('employees')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="employeesTileContent" footer="{i18n>ACTIVE_EMPLOYEES}">
+              <m:NumericContent
+                id="activeEmployees"
+                value="48"
+                valueColor="Good"
+                withMargin="false"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- DEPARTMENTS -->
+          <m:GenericTile
+            id="departmentsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>DEPARTMENTS}"
+            subheader="{i18n>CLICK_TO_VIEW}"
+            press="onHandlePress('departments')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="departmentsTileContent">
+              <core:Icon
+                id="departmentsTileIcon"
+                src="sap-icon://organization-chart"
+                class="tileIconSize"
+                alt="{i18n>DEPARTMENTS_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+        </m:HBox>
+      </ObjectPageSubSection>
+    </subSections>
+  </ObjectPageSection>
+</core:FragmentDefinition>

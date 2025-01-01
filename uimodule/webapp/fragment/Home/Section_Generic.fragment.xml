@@ -1,41 +1,41 @@
 <core:FragmentDefinition
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.uxap"
-    xmlns:m="sap.m"
-    xmlns:core="sap.ui.core"
-    xmlns:layout="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.uxap"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:layout="sap.ui.layout"
 >
-    <ObjectPageSection
-        id="sectionGeneric"
-        title="{i18n>GENERIC_SECTION}"
-        titleUppercase="false"
-    >
-        <subSections>
-            <ObjectPageSubSection id="subsectionGeneric">
-                <layout:HorizontalLayout
-                    id="_IDGenHorizontalLayout1"
-                    allowWrapping="true"
-                >
-                    <m:GenericTile
-                        id="featureTile"
-                        class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
-                        header="{i18n>GENERIC_TILE}"
-                        press="onHandlePress('generic')"
-                        frameType="OneByOne"
-                        visible="true"
-                    >
-                        <m:TileContent id="_IDGenTileContent2">
-                            <core:Icon
-                                id="featureTileIcon"
-                                src="sap-icon://accept"
-                                size="4rem"
-                                color="#5899DA"
-                                class="sapThemeHighlight-asColor"
-                            />
-                        </m:TileContent>
-                    </m:GenericTile>
-                </layout:HorizontalLayout>
-            </ObjectPageSubSection>
-        </subSections>
-    </ObjectPageSection>
+  <ObjectPageSection
+    id="sectionGeneric"
+    title="{i18n>GENERIC_SECTION}"
+    titleUppercase="false"
+  >
+    <subSections>
+      <ObjectPageSubSection id="subsectionGeneric">
+        <layout:HorizontalLayout
+          id="_IDGenHorizontalLayout1"
+          allowWrapping="true"
+        >
+          <m:GenericTile
+            id="featureTile"
+            class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+            header="{i18n>GENERIC_TILE}"
+            press="onHandlePress('generic')"
+            frameType="OneByOne"
+            visible="true"
+          >
+            <m:TileContent id="_IDGenTileContent2">
+              <core:Icon
+                id="featureTileIcon"
+                src="sap-icon://accept"
+                size="4rem"
+                color="#5899DA"
+                class="sapThemeHighlight-asColor"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+        </layout:HorizontalLayout>
+      </ObjectPageSubSection>
+    </subSections>
+  </ObjectPageSection>
 </core:FragmentDefinition>

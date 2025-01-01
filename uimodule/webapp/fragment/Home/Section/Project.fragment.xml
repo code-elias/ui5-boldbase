@@ -1,0 +1,76 @@
+<core:FragmentDefinition
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.uxap"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:layout="sap.ui.layout"
+>
+  <ObjectPageSection
+    id="projectSection"
+    title="{i18n>PROJECT}"
+    titleUppercase="false"
+  >
+    <subSections>
+      <ObjectPageSubSection id="projectSectionSS1">
+        <m:HBox id="projectTilesContainer">
+          <!-- ACTIVE PROJECTS -->
+          <m:GenericTile
+            id="activeProjectsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>ACTIVE_PROJECTS}"
+            subheader="{i18n>ONGOING}"
+            press="onHandlePress('activeProjects')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="activeProjectsTileContent" footer="2025 Q2 Deadline">
+              <m:NumericContent
+                id="activeProjectsCount"
+                value="5"
+                valueColor="Critical"
+                withMargin="false"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- COMPLETED PROJECTS -->
+          <m:GenericTile
+            id="completedProjectsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>COMPLETED_PROJECTS}"
+            subheader="{i18n>YEAR_TO_DATE}"
+            press="onHandlePress('completedProjects')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="completedProjectsTileContent" footer="{i18n>ARCHIVE_SOON}">
+              <m:NumericContent
+                id="completedProjectsCount"
+                value="12"
+                valueColor="Good"
+                withMargin="false"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- ARCHIVED PROJECTS -->
+          <m:GenericTile
+            id="archivedProjectsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>ARCHIVED_PROJECTS}"
+            subheader="{i18n>VIEW_ARCHIVE}"
+            press="onHandlePress('archivedProjects')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="archivedProjectsTileContent">
+              <core:Icon
+                id="archivedProjectsTileIcon"
+                src="sap-icon://document-text"
+                class="tileIconSize"
+                alt="{i18n>ARCHIVED_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+        </m:HBox>
+      </ObjectPageSubSection>
+    </subSections>
+  </ObjectPageSection>
+</core:FragmentDefinition>

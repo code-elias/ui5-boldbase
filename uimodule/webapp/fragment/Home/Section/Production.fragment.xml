@@ -1,0 +1,76 @@
+<core:FragmentDefinition
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.uxap"
+  xmlns:m="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:layout="sap.ui.layout"
+>
+  <ObjectPageSection
+    id="productionSection"
+    title="{i18n>PRODUCTION}"
+    titleUppercase="false"
+  >
+    <subSections>
+      <ObjectPageSubSection id="productionSectionSS1">
+        <m:HBox id="productionTilesContainer">
+          <!-- INVENTORY / STOCK -->
+          <m:GenericTile
+            id="inventoryTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>INVENTORY}"
+            subheader="{i18n>CURRENT_STOCK}"
+            press="onHandlePress('inventory')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="inventoryTileContent">
+              <core:Icon
+                id="inventoryTileIcon"
+                src="sap-icon://inventory"
+                class="tileIconSize"
+                alt="{i18n>INVENTORY_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- PRODUCTION ORDERS -->
+          <m:GenericTile
+            id="productionOrdersTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>PRODUCTION_ORDERS}"
+            subheader="{i18n>PENDING_ORDERS}: 3"
+            press="onHandlePress('productionOrders')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="productionOrdersTileContent" footer="{i18n>URGENT_ORDERS}">
+              <m:NumericContent
+                id="urgentOrders"
+                value="1"
+                valueColor="Error"
+                withMargin="false"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
+          <!-- QC / INSPECTION -->
+          <m:GenericTile
+            id="qcTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>QUALITY_CHECKS}"
+            subheader="{i18n>INSPECTIONS_TODAY}"
+            press="onHandlePress('qc')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="qcTileContent">
+              <core:Icon
+                id="qcTileIcon"
+                src="sap-icon://inspection"
+                class="tileIconSize"
+                alt="{i18n>QC_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+        </m:HBox>
+      </ObjectPageSubSection>
+    </subSections>
+  </ObjectPageSection>
+</core:FragmentDefinition>

@@ -35,8 +35,11 @@ sap.ui.define(
         this.resetMessageStrip()
         if (!this.isLoginInputValid()) return // Guard Statement
 
-        // this.loginToApp()
-        this.mockLoginToApp()
+        if (SETTINGS.isProduction) {
+          this.loginToApp()
+        } else {
+          this.mockLoginToApp()
+        }
       },
 
       mockLoginToApp() {

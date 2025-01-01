@@ -6,13 +6,18 @@
   xmlns:core="sap.ui.core"
   xmlns:layout="sap.ui.layout"
 >
-  <ObjectPageLayout
+
+  <core:Fragment
+    type="XML"
+    fragmentName="eligolam.boldbase.fragment.Home.ObjectPage"
+  />
+
+  <!-- <ObjectPageLayout
     id="Homepage"
     upperCaseAnchorBar="false"
     showHeaderContent="false"
     backgroundDesignAnchorBar="Transparent"
   >
-    <!-- Object Page Sections contain the Body of the page -->
     <sections>
       <core:Fragment
         type="XML"
@@ -24,5 +29,5 @@
         fragmentName="eligolam.boldbase.fragment.Home.Section_Test"
       />
     </sections>
-  </ObjectPageLayout>
+  </ObjectPageLayout> -->
 </mvc:View>
