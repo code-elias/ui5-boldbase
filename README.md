@@ -11,9 +11,9 @@ npm i
 ```
 
 2. Adjust Ports
-   a. Fix node port in **_package.json_**
-   b. Fix API port in **_common.js_**
-   c. Fix yaml port in **_ui5.yaml_**
+   1. Fix node port in **_package.json_**
+   2. Fix API port in **_common.js_**
+   3. Fix yaml port in **_ui5.yaml_**
 
 3. Launch solution
 ```bash
