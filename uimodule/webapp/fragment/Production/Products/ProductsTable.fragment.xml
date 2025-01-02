@@ -1,0 +1,297 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:t="sap.ui.table"
+  xmlns:rowmodes="sap.ui.table.rowmodes"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:dnd="sap.ui.core.dnd"
+  xmlns:layout="sap.ui.layout"
+  xmlns:core="sap.ui.core"
+>
+  <t:Table
+    id="ProductsTable"
+    rows="{Products>/List}"
+    enableCellFilter="true"
+    ariaLabelledBy="title"
+    selectionMode="MultiToggle"
+    alternateRowColors="true"
+    busyIndicatorDelay="0"
+    fixedColumnCount="3"
+  >
+    <!-- Row Mode -->
+    <t:rowMode>
+      <rowmodes:Auto />
+    </t:rowMode>
+
+    <!-- Extension: Toolbar -->
+    <t:extension>
+      <OverflowToolbar id="ProductsTableToolbar" style="Clear">
+        <Button
+          id="btnNewProduct"
+          text="{i18n>NEW_PRODUCT}"
+          press="onCreateNewProduct"
+        />
+      </OverflowToolbar>
+    </t:extension>
+
+    <!-- Columns -->
+    <t:columns>
+
+      <!-- ACTION BUTTONS COLUMN -->
+      <t:Column
+        id="colActionBtns"
+        width="7rem"
+        resizable="false"
+      >
+        <t:template>
+          <HBox
+            id="ActionBtnContainer"
+            justifyContent="SpaceBetween"
+            class="sapUiTinyMarginBeginEnd"
+          >
+            <!-- Delete Button -->
+            <core:Icon
+              id="btnDelete"
+              src="sap-icon://decline"
+              size="1rem"
+              decorative="false"
+              color="Negative"
+              hoverColor="red"
+              tooltip="{i18n>DELETE}"
+              press="onRejectRow"
+            />
+            <!-- Edit Button -->
+            <core:Icon
+              id="btnEdit"
+              src="sap-icon://value-help"
+              size="1rem"
+              decorative="false"
+              color="Marker"
+              hoverColor="lightblue"
+              tooltip="{i18n>EDIT}"
+              press="onEditRow"
+            />
+          </HBox>
+        </t:template>
+      </t:Column>
+
+      <!-- CODE -->
+      <t:Column
+        id="colProductCode"
+        width="8rem"
+        sortProperty="Code"
+        filterProperty="Code"
+        autoResizable="true"
+      >
+        <Label id="lblProductCode" text="{i18n>PRODUCT_CODE}" />
+        <t:template>
+          <Label
+            id="ProductCode"
+            text="{Products>Code}"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- NAME -->
+      <t:Column
+        id="colProductName"
+        width="10rem"
+        sortProperty="Name"
+        filterProperty="Name"
+        autoResizable="true"
+      >
+        <Label
+          id="lblProductName"
+          text="{i18n>NAME}"
+        />
+        <t:template>
+          <Label
+            id="idProductName"
+            text="{Products>Name}"
+            design="Bold"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- PRODUCT CATEGORY -->
+      <t:Column
+        id="colProductCategory"
+        width="10rem"
+        sortProperty="ProductCategory"
+        filterProperty="ProductCategory"
+        autoResizable="true"
+      >
+        <Label
+          id="lblProductCategory"
+          text="{i18n>CATEGORY}"
+        />
+        <t:template>
+          <!-- Adjust if your model has the name or ID differently (e.g., 'CategoryName'). -->
+          <Label
+            id="ProductCategory"
+            text="{Products>ProductCategory}"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- PRICE -->
+      <t:Column
+        id="colPrice"
+        width="6rem"
+        sortProperty="Price"
+        filterProperty="Price"
+        autoResizable="true"
+      >
+        <Label
+          id="lblPrice"
+          text="{i18n>PRICE}"
+        />
+        <t:template>
+          <Label
+            id="ProductPrice"
+            text="{Products>Price}"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- VAT -->
+      <t:Column
+        id="colVAT"
+        width="5rem"
+        sortProperty="VAT"
+        filterProperty="VAT"
+        autoResizable="true"
+      >
+        <Label
+          id="lblVAT"
+          text="{i18n>VAT}"
+        />
+        <t:template>
+          <Label
+            id="ProductVAT"
+            text="{Products>VAT}"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- WARRANTY -->
+      <t:Column
+        id="colWarranty"
+        width="8rem"
+        sortProperty="Warranty"
+        filterProperty="Warranty"
+        autoResizable="true"
+      >
+        <Label
+          id="lblWarranty"
+          text="{i18n>WARRANTY}"
+        />
+        <t:template>
+          <!-- If 'WarrantyId' references Warranties(Id), you might store the name or do an
+          association in your model. -->
+          <Label
+            id="ProductWarranty"
+            text="{Products>Warranty}"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- BUNDLE -->
+      <t:Column
+        id="colBundle"
+        width="8rem"
+        sortProperty="Bundle"
+        filterProperty="Bundle"
+        autoResizable="true"
+      >
+        <Label
+          id="lblBundle"
+          text="{i18n>BUNDLE}"
+        />
+        <t:template>
+          <!-- If there's no bundle, you might want to show an empty string or 'None' -->
+          <Label
+            id="ProductBundle"
+            text="{
+              = ${Products>BundleId} 
+                ? ${Products>Bundle} 
+                : 'None'
+            }"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- SUBSCRIPTION -->
+      <t:Column
+        id="colSubscription"
+        width="10rem"
+        sortProperty="Subscription"
+        filterProperty="Subscription"
+        autoResizable="true"
+      >
+        <Label
+          id="lblSubscription"
+          text="{i18n>SUBSCRIPTION}"
+        />
+        <t:template>
+          <!-- If your model has 'Subscription' name or similar field. -->
+          <Label
+            id="ProductSubscription"
+            text="{
+              = ${Products>SubscriptionId}
+                ? ${Products>Subscription}
+                : 'None'
+            }"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- DESCRIPTION -->
+      <t:Column
+        id="colDescription"
+        width="auto"
+        sortProperty="Description"
+        filterProperty="Description"
+        autoResizable="true"
+      >
+        <Label
+          id="lblDescription"
+          text="{i18n>DESCRIPTION}"
+        />
+        <t:template>
+          <Text
+            id="ProductDescription"
+            text="{Products>Description}"
+            maxLines="2"
+            width="15rem"
+            wrapping="true"
+          />
+        </t:template>
+      </t:Column>
+
+      <!-- FREETEXT -->
+      <t:Column
+        id="colFreeText"
+        width="auto"
+        sortProperty="FreeText"
+        filterProperty="FreeText"
+        autoResizable="true"
+      >
+        <Label
+          id="lblFreeText"
+          text="{i18n>INFO}"
+        />
+        <t:template>
+          <Text
+            id="ProductFreeText"
+            text="{Products>FreeText}"
+            maxLines="2"
+            width="15rem"
+            wrapping="true"
+          />
+        </t:template>
+      </t:Column>
+
+    </t:columns>
+  </t:Table>
+</core:FragmentDefinition>

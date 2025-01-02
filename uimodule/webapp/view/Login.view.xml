@@ -1,5 +1,4 @@
-<mvc:View
-  controllerName="eligolam.boldbase.controller.Login"
+<mvc:View controllerName="eligolam.boldbase.controller.Login"
   xmlns="sap.m"
   xmlns:f="sap.f"
   xmlns:card="sap.f.cards"
@@ -11,57 +10,42 @@
   xmlns:tnt="sap.tnt"
 >
   <!-- LOGIN PAGE -->
-  <Page
-    id="loginPage"
-    showHeader="false"
-  >
+  <Page id="loginPage" showHeader="false">
     <content>
-      <VBox
-        id="loginContainer"
+      <VBox id="loginContainer"
         height="100%"
         alignItems="Center"
         justifyContent="Center"
       >
-        <HBox
-          id="logoContainer"
+        <HBox id="logoContainer"
           class="sapUiResponsiveContentPadding sapUiResponsiveMargin"
           alignItems="Center"
           justifyContent="Center"
         >
           <items>
-            <Image
-              id="loginLogo"
+            <Image id="loginLogo"
               src="{
-              value: 'eligolam/boldbase/img/BoldBase.webp',
-              formatter: 'sap.ui.require.toUrl'
-            }"
+                value: 'eligolam/boldbase/img/BoldBase.webp',
+                formatter: 'sap.ui.require.toUrl'
+              }"
               alt="BoldBase Logo"
               decorative="true"
-              width="20rem"
-              class="center-image"
+              width="25rem"
+              class="center-image sapUiSmallMarginBottom"
             />
           </items>
         </HBox>
 
-        <VBox
-          id="loginBoxContainer"
+        <VBox id="loginBoxContainer"
           class="sapUiResponsiveContentPadding"
           alignItems="Center"
           justifyContent="Center"
         >
           <items>
-            <Panel
-              id="loginBox"
-              width="auto"
-              class="sapUiResponsiveContentPadding"
-            >
+            <Panel id="loginBox" width="auto" class="sapUiResponsiveContentPadding">
               <headerToolbar>
-                <OverflowToolbar
-                  id="LoginTitleContainer"
-                  class="p-4"
-                >
-                  <Title
-                    id="LoginTitle"
+                <OverflowToolbar id="LoginTitleContainer" class="p-4">
+                  <Title id="LoginTitle"
                     level="H2"
                     text="{i18n>WELCOME}"
                     wrapping="true"
@@ -73,31 +57,29 @@
               </headerToolbar>
 
               <content>
-                <Input
-                  id="inputUsername"
+                <Input id="inputUsername"
                   type="Text"
                   class="sapUiSmallMarginBottom"
                   placeholder="{i18n>USERNAME}"
                   liveChange="onLiveChange"
                   submit="onUsernameSubmit"
                 />
-                <Input
-                  id="inputPassword"
+
+                <Input id="inputPassword"
                   type="Password"
                   class="sapUiSmallMarginBottom"
                   placeholder="{i18n>PASSWORD}"
                   submit="onLogin"
                   liveChange="onLiveChange"
                 />
-                <HBox
-                  id="buttonLoginContainer"
+
+                <HBox id="buttonLoginContainer"
                   width="100%"
                   alignItems="Center"
                   justifyContent="Center"
                 >
                   <items>
-                    <Button
-                      id="buttonLogin"
+                    <Button id="buttonLogin"
                       text="{i18n>LOGIN}"
                       press="onLogin"
                       class="sapUiTinyMarginTopBottom"
@@ -110,19 +92,18 @@
             </Panel>
           </items>
         </VBox>
-        <HBox
-          id="authorLogo"
+
+        <HBox id="authorLogo"
           class="sapUiResponsiveContentPadding sapUiSmallMarginTop"
           alignItems="Center"
           justifyContent="Center"
         >
           <items>
-            <Image
-              id="AuthorLogo"
+            <Image id="AuthorLogo"
               src="{
-							value: 'eligolam/boldbase/img/CodeElias.webp',
-							formatter: 'sap.ui.require.toUrl'
-						}"
+                value: 'eligolam/boldbase/img/CodeElias.webp',
+                formatter: 'sap.ui.require.toUrl'
+              }"
               alt="Code Elias Logo"
               decorative="true"
               width="15rem"

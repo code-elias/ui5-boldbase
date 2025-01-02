@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <Button id="btnSameArt"
+    text="{i18n>SAME_ARTICLE}"
+    tooltip="{i18n>SAME_ARTICLE}"
+    press="reccSelectSameArt"
+    type="Default"
+  />
+
+  <Button
+    id="btnCombine"
+    text="{i18n>COMBINE_SELECTED}"
+    tooltip="{i18n>COMBINE_SELECTED}"
+    icon="sap-icon://combine"
+    press="reccCombineSelected"
+    enabled="{= ${Recommendations>/SelectedTab} === 'order' || ${Recommendations>/SelectedTab} === 'produce'}"
+    type="Default"
+  />
+
+</core:FragmentDefinition>

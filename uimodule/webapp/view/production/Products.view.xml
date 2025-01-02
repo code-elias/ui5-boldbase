@@ -2,8 +2,59 @@
   controllerName="eligolam.boldbase.controller.production.Products"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns="sap.m"
+  xmlns:t="sap.ui.table"
+  xmlns:rowmodes="sap.ui.table.rowmodes"
+  xmlns:f="sap.f"
+  xmlns:dnd="sap.ui.core.dnd"
+  xmlns:layout="sap.ui.layout"
+  xmlns:core="sap.ui.core"
+  displayBlock="true"
 >
 
-  <Text text="Current Product Page" class="sapUiSmallMarginTop" />
+  <f:DynamicPage id="ProductsPage"
+    toggleHeaderOnTitleClick="false"
+    showFooter="true"
+  >
+    <!--#region
+    TITLE -->
+    <f:title>
+      <f:DynamicPageTitle id="ProductsPageTitleContainer">
+        <f:heading>
+          <Title id="ProductsPageTitle" text="{i18n>PRODUCTS}" />
+        </f:heading>
+
+        <f:navigationActions>
+          <core:Fragment
+            fragmentName="eligolam.boldbase.fragment.Production.Products.NavigationActions"
+            type="XML"
+          />
+        </f:navigationActions>
+      </f:DynamicPageTitle>
+    </f:title>
+    <!--#endregion
+    TITLE -->
+
+    <!--#region
+      CONTENT -->
+    <f:content>
+      <core:Fragment
+        fragmentName="eligolam.boldbase.fragment.Production.Products.ProductsTable"
+        type="XML"
+      />
+    </f:content>
+    <!--#endregion
+    CONTENT -->
+
+    <!--#region
+      FOOTER -->
+    <f:footer>
+      <core:Fragment
+        fragmentName="eligolam.boldbase.fragment.Production.Products.Footer"
+        type="XML"
+      />
+    </f:footer>
+    <!--#endregion
+      FOOTER -->
+  </f:DynamicPage>
 
 </mvc:View>

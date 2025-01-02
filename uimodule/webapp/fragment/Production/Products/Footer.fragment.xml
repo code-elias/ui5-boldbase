@@ -1,0 +1,66 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <OverflowToolbar id="ProductsToolbar">
+
+    <MenuButton id="ProductsMenuButton"
+      text="{i18n>AUTOMATIC}"
+      icon="sap-icon://add-activity"
+      defaultAction="moveSelectedArticles"
+      type="Emphasized"
+      width="20rem"
+      buttonMode="Split"
+      useDefaultActionOnly="true"
+      enabled="false"
+    >
+      <menu>
+        <Menu id="ProductsMenu" itemSelected="moveSelectedArticles">
+          <MenuItem
+            id="btnMoveAutomatic"
+            icon="sap-icon://add-activity"
+            text="{i18n>AUTOMATIC}"
+            key="automatic"
+          />
+          <MenuItem
+            id="btnMoveToGeneral"
+            icon="sap-icon://add-activity"
+            text="{i18n>GENERAL}"
+            key="general"
+          />
+          <MenuItem
+            id="btnMoveToStock"
+            icon="sap-icon://add-activity"
+            text="{i18n>STOCK_TRANSFER}"
+            key="stock"
+          />
+          <MenuItem
+            id="btnMoveToOrder"
+            icon="sap-icon://add-activity"
+            text="{i18n>ORDER_QUOTATION}"
+            key="order"
+          />
+          <MenuItem
+            id="btnMoveToProduce"
+            icon="sap-icon://add-activity"
+            text="{i18n>PRODUCE}"
+            key="produce"
+          />
+        </Menu>
+      </menu>
+    </MenuButton>
+
+    <ToolbarSpacer id="FooterToolbar1" />
+
+    <Button
+      id="btnCreatePurchaseRequest"
+      visible="{= ${Recommendations>/SelectedTab} === 'order'}"
+      text="{i18n>CREATE_PURCHASE_REQUEST}"
+      type="Emphasized"
+      tooltip="{i18n>CREATE_PURCHASE_REQUEST}"
+      press=".onBtnPlanning($event, 'CreatePurchaseRequest')"
+    />
+  </OverflowToolbar>
+
+</core:FragmentDefinition>
