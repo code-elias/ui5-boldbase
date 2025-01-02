@@ -17,15 +17,6 @@
     "sourceTemplate": {
       "id": "@sap-ux/fiori-freestyle-writer:basic",
       "version": "0.12.8"
-    },
-    "dataSources": {
-      "mainService": {
-        "uri": "/braintest/",
-        "type": "OData",
-        "settings": {
-          "odataVersion": "2.0"
-        }
-      }
     }
   },
   "sap.ui": {
@@ -47,7 +38,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.108.11",
+      "minUI5Version": "1.120.01",
       "libs": {
         "sap.m": {},
         "sap.f": {},
@@ -106,12 +97,17 @@
           "pattern": "generic",
           "name": "generic",
           "target": ["generic"]
+        },
+        {
+          "pattern": "products",
+          "name": "products",
+          "target": ["products"]
         }
       ],
       "targets": {
         "login": {
           "viewType": "XML",
-          "transition": "slide",
+          "transition": "fade",
           "controlAggregation": "beginColumnPages",
           "clearControlAggregation": false,
           "viewId": "login",
@@ -119,7 +115,7 @@
         },
         "home": {
           "viewType": "XML",
-          "transition": "slide",
+          "transition": "fade",
           "controlAggregation": "beginColumnPages",
           "clearControlAggregation": false,
           "viewId": "home",
@@ -132,6 +128,14 @@
           "clearControlAggregation": false,
           "viewId": "generic",
           "viewName": "generic.Generic"
+        },
+        "products": {
+          "viewId": "ProductView",
+          "viewName": "production.Products",
+          "viewType": "XML",
+          "transition": "slide",
+          "controlAggregation": "beginColumnPages",
+          "clearControlAggregation": false
         }
       }
     }

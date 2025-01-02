@@ -3,12 +3,12 @@ sap.ui.define(
   function (BaseController, sandbox, Formatter) {
     'use strict'
 
-    return BaseController.extend('eligolam.boldbase.controller.Home', {
+    return BaseController.extend('eligolam.boldbase.controller.production.Products', {
       //#region Setup
       Formatter: Formatter,
       onInit() {
         this.oRouter = this.getRouter()
-        this.oRouter.getRoute('home').attachMatched(this._onRouteMatched, this)
+        this.oRouter.getRoute('products').attachMatched(this._onRouteMatched, this)
       },
       onBeforeRendering() {},
       onAfterRendering() {},

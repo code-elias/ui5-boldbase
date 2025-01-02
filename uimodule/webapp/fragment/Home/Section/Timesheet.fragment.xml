@@ -19,7 +19,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>WORK_HOURS}"
             subheader="01 JAN 2025"
-            press="onHandlePress('workhours')"
+            press="navigateTo('workhours')"
             frameType="OneByOne"
           >
             <m:TileContent id="workhoursTileContent" footer="0 {i18n>HOURS_TODAY}">
@@ -38,7 +38,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>TASKS}"
             subheader="{i18n>COMPLETED}: 5"
-            press="onHandlePress('tasks')"
+            press="navigateTo('tasks')"
             frameType="OneByOne"
           >
             <m:TileContent id="tasksTileContent" footer="{i18n>ACTIVE_TASKS}">

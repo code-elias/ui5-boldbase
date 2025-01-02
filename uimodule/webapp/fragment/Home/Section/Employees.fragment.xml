@@ -19,7 +19,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>EMPLOYEE_PERMISSIONS}"
             subheader="{i18n>MANAGE_ROLES_PERMS}"
-            press="onHandlePress('permissions')"
+            press="navigateTo('permissions')"
             frameType="OneByOne"
           >
             <m:TileContent id="permissionsTileContent" footer="{i18n>CLICK_TO_MANAGE}">
@@ -38,7 +38,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>EMPLOYEES}"
             subheader="{i18n>TOTAL_EMPLOYEES}: 50"
-            press="onHandlePress('employees')"
+            press="navigateTo('employees')"
             frameType="OneByOne"
           >
             <m:TileContent id="employeesTileContent" footer="{i18n>ACTIVE_EMPLOYEES}">
@@ -57,7 +57,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>DEPARTMENTS}"
             subheader="{i18n>CLICK_TO_VIEW}"
-            press="onHandlePress('departments')"
+            press="navigateTo('departments')"
             frameType="OneByOne"
           >
             <m:TileContent id="departmentsTileContent">

@@ -13,13 +13,32 @@
     <subSections>
       <ObjectPageSubSection id="productionSectionSS1">
         <m:HBox id="productionTilesContainer">
+          <!-- PRODUCTS -->
+          <m:GenericTile
+            id="productsTile"
+            class="tileLayout sapUiSmallMarginEnd"
+            header="{i18n>PRODUCTS}"
+            subheader="{i18n>CURRENT_STOCK}"
+            press="navigateTo('products')"
+            frameType="OneByOne"
+          >
+            <m:TileContent id="productsTileContent">
+              <core:Icon
+                id="productsTileIcon"
+                src="sap-icon://products"
+                class="tileIconSize"
+                alt="{i18n>products_ICON}"
+              />
+            </m:TileContent>
+          </m:GenericTile>
+
           <!-- INVENTORY / STOCK -->
           <m:GenericTile
             id="inventoryTile"
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>INVENTORY}"
             subheader="{i18n>CURRENT_STOCK}"
-            press="onHandlePress('inventory')"
+            press="navigateTo('inventory')"
             frameType="OneByOne"
           >
             <m:TileContent id="inventoryTileContent">
@@ -38,7 +57,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>PRODUCTION_ORDERS}"
             subheader="{i18n>PENDING_ORDERS}: 3"
-            press="onHandlePress('productionOrders')"
+            press="navigateTo('productionOrders')"
             frameType="OneByOne"
           >
             <m:TileContent id="productionOrdersTileContent" footer="{i18n>URGENT_ORDERS}">
@@ -57,7 +76,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>QUALITY_CHECKS}"
             subheader="{i18n>INSPECTIONS_TODAY}"
-            press="onHandlePress('qc')"
+            press="navigateTo('qc')"
             frameType="OneByOne"
           >
             <m:TileContent id="qcTileContent">

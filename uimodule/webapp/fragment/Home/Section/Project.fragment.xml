@@ -19,7 +19,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>ACTIVE_PROJECTS}"
             subheader="{i18n>ONGOING}"
-            press="onHandlePress('activeProjects')"
+            press="navigateTo('activeProjects')"
             frameType="OneByOne"
           >
             <m:TileContent id="activeProjectsTileContent" footer="2025 Q2 Deadline">
@@ -38,7 +38,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>COMPLETED_PROJECTS}"
             subheader="{i18n>YEAR_TO_DATE}"
-            press="onHandlePress('completedProjects')"
+            press="navigateTo('completedProjects')"
             frameType="OneByOne"
           >
             <m:TileContent id="completedProjectsTileContent" footer="{i18n>ARCHIVE_SOON}">
@@ -57,7 +57,7 @@
             class="tileLayout sapUiSmallMarginEnd"
             header="{i18n>ARCHIVED_PROJECTS}"
             subheader="{i18n>VIEW_ARCHIVE}"
-            press="onHandlePress('archivedProjects')"
+            press="navigateTo('archivedProjects')"
             frameType="OneByOne"
           >
             <m:TileContent id="archivedProjectsTileContent">

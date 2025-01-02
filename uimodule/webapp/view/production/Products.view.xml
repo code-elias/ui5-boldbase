@@ -1,0 +1,9 @@
+<mvc:View
+  controllerName="eligolam.boldbase.controller.production.Products"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+>
+
+  <Text text="Current Product Page" class="sapUiSmallMarginTop" />
+
+</mvc:View>

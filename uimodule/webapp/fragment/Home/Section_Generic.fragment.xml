@@ -20,7 +20,7 @@
             id="featureTile"
             class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
             header="{i18n>GENERIC_TILE}"
-            press="onHandlePress('generic')"
+            press="navigateTo('generic')"
             frameType="OneByOne"
             visible="true"
           >

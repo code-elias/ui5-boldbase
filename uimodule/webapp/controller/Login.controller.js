@@ -1,15 +1,7 @@
 sap.ui.define(
-  [
-    'eligolam/boldbase/controller/BaseControllerProject',
-    'eligolam/boldbase/Modules/api',
-    'eligolam/boldbase/Modules/sandbox',
-    'sap/ui/model/json/JSONModel',
-    'sap/m/MessageBox',
-    'sap/ui/core/BusyIndicator',
-    'sap/ui/model/odata/v2/ODataModel'
-  ],
+  ['eligolam/boldbase/controller/BaseControllerProject', 'eligolam/boldbase/Modules/api', 'sap/m/MessageToast', 'sap/m/BusyDialog'],
 
-  function (BaseController, api, sandbox, JSONModel, MessageBox, BusyIndicator, ODataModel, Storage) {
+  (BaseController, api, MessageToast, BusyDialog) => {
     'use strict'
     return BaseController.extend('eligolam.boldbase.controller.Login', {
       //#region Setup
@@ -26,7 +18,6 @@ sap.ui.define(
 
       _onRouteMatched(oEvent) {
         this.resetMessageStrip()
-        sandbox.test()
       },
       //#endregion Setup
 
@@ -43,11 +34,19 @@ sap.ui.define(
       },
 
       mockLoginToApp() {
-        this.executeLogin()
+        const oBusyDialog = this.getLoginBusyDialog()
+        oBusyDialog.open()
+
+        setTimeout(() => {
+          this.executeLogin()
+          oBusyDialog.close()
+        }, 2000)
       },
 
       loginToApp() {
-        BusyIndicator.show(0)
+        // BusyIndicator.show(0)
+        const oBusyDialog = this.getLoginBusyDialog()
+        oBusyDialog.open()
 
         const params = {
           userName: this.getInputUsername().getValue(),
@@ -59,13 +58,15 @@ sap.ui.define(
           .then((data) => this.executeLogin(data))
           .catch((error) => this.handleLoginError(error))
           .finally(() => {
-            BusyIndicator.hide()
+            // BusyIndicator.hide()
+            oBusyDialog.close()
           })
       },
 
       executeLogin(data) {
-        this.setMessageStrip('Success', this.geti18n('LOGIN_USER_OK'), 'loginPage')
-        this.onHandlePress('home') // Navigate to home
+        // this.setMessageStrip('Success', this.geti18n('LOGIN_USER_OK'), 'loginPage')
+        MessageToast.show(this.geti18n('LOGIN_SUCCESS'))
+        this.navigateTo('home') // Navigate to home
       },
 
       handleLoginError(error) {
@@ -113,15 +114,20 @@ sap.ui.define(
         }
 
         return true
+      },
+
+      cleanInputFields(...fields) {
+        fields.forEach((element) => {
+          element.setValue('')
+        })
+      },
+
+      getLoginBusyDialog() {
+        return new BusyDialog({
+          text: this.geti18n('LOGGING_IN')
+        })
       }
       //#endregion DOM functions
     })
   }
 )
-
-// Private Functions
-function cleanInputFields(...fields) {
-  fields.forEach((element) => {
-    element.setValue('')
-  })
-}
