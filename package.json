@@ -11,7 +11,8 @@
     "lint": "eslint ./**/webapp/**/*.js && prettier --plugin-search-dir=. --check ./**/webapp/**/*.{js,xml}",
     "lint-fix": "eslint ./**/webapp/**/*.js --fix && prettier --plugin-search-dir=. --write ./**/webapp/**/*.{js,xml} --no-error-on-unmatched-pattern",
     "serve:uimodule": "ui5 serve --config=uimodule/ui5.yaml",
-    "build:uimodule": "ui5 build --config=uimodule/ui5.yaml --clean-dest --dest dist -a --include-task=generateManifestBundle --include-task=generateCachebusterInfp"
+    "build:uimodule": "ui5 build --config=uimodule/ui5.yaml --clean-dest --dest dist -a --include-task=generateManifestBundle",
+    "build:uicache": "ui5 build --config=uimodule/ui5.yaml --clean-dest --dest dist -a --include-task=generateManifestBundle --include-task=generateCachebusterInfp"
   },
   "devDependencies": {
     "@sapui5/ts-types": "^1.108.0",
