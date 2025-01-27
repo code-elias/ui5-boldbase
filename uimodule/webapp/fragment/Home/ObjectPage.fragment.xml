@@ -1,7 +1,7 @@
 <core:FragmentDefinition
   xmlns:core="sap.ui.core"
-  xmlns="sap.uxap"
   xmlns:m="sap.m"
+  xmlns="sap.uxap"
 >
 
   <ObjectPageLayout id="HomePage"
@@ -10,13 +10,10 @@
 
     <!-- Header Title -->
     <headerTitle>
-      <ObjectPageDynamicHeaderTitle id="HomePageTitleContainer">
-
-        <expandedHeading>
-          <m:Title id="HomePageTitle" text="Hi Denise!" />
-        </expandedHeading>
-
-      </ObjectPageDynamicHeaderTitle>
+      <core:Fragment
+        type="XML"
+        fragmentName="eligolam.boldbase.fragment.Home.HomePageTitle"
+      />
     </headerTitle>
 
     <!-- Header Content -->
@@ -24,10 +21,10 @@
 
     <!-- Page Sections -->
     <sections>
-      <core:Fragment
+      <!-- <core:Fragment
         type="XML"
         fragmentName="eligolam.boldbase.fragment.Home.Section_Test"
-      />
+      /> -->
 
       <core:Fragment
         type="XML"

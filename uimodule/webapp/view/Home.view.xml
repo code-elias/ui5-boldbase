@@ -11,23 +11,4 @@
     type="XML"
     fragmentName="eligolam.boldbase.fragment.Home.ObjectPage"
   />
-
-  <!-- <ObjectPageLayout
-    id="Homepage"
-    upperCaseAnchorBar="false"
-    showHeaderContent="false"
-    backgroundDesignAnchorBar="Transparent"
-  >
-    <sections>
-      <core:Fragment
-        type="XML"
-        fragmentName="eligolam.boldbase.fragment.Home.Section_Generic"
-      />
-
-      <core:Fragment
-        type="XML"
-        fragmentName="eligolam.boldbase.fragment.Home.Section_Test"
-      />
-    </sections>
-  </ObjectPageLayout> -->
 </mvc:View>

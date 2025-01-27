@@ -15,16 +15,16 @@
         <m:HBox id="projectTilesContainer">
           <!-- ACTIVE PROJECTS -->
           <m:GenericTile
-            id="activeProjectsTile"
+            id="projectsTile"
             class="tileLayout sapUiSmallMarginEnd"
-            header="{i18n>ACTIVE_PROJECTS}"
-            subheader="{i18n>ONGOING}"
-            press="navigateTo('activeProjects')"
+            header="{i18n>MANAGE_PROJECTS}"
+            subheader="2025 Q2 Deadline"
+            press="navigateTo('projects')"
             frameType="OneByOne"
           >
-            <m:TileContent id="activeProjectsTileContent" footer="2025 Q2 Deadline">
+            <m:TileContent id="projectsTileContent" footer="{i18n>ONGOING}">
               <m:NumericContent
-                id="activeProjectsCount"
+                id="projectsCount"
                 value="5"
                 valueColor="Critical"
                 withMargin="false"

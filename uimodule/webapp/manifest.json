@@ -9,7 +9,7 @@
       "fallbackLocale": "en"
     },
     "applicationVersion": {
-      "version": "1.0.0"
+      "version": "0.0.3"
     },
     "title": "{{APP_TITLE}}",
     "description": "{{APP_DESCRIPTION}}",
@@ -56,7 +56,7 @@
         "settings": {
           "bundleName": "eligolam.boldbase.i18n.i18n",
           "supportedLocales": ["it", "en"],
-          "fallbackLocale": "it"
+          "fallbackLocale": "en"
         }
       }
     },

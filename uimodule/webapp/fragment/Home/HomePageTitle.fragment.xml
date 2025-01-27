@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+  xmlns:core="sap.ui.core"
+  xmlns:m="sap.m"
+  xmlns="sap.uxap"
+>
+  <ObjectPageDynamicHeaderTitle id="HomePageTitleContainer">
+
+    <expandedHeading>
+      <m:Title id="HomePageTitle" text="Hi Denise!" />
+    </expandedHeading>
+
+  </ObjectPageDynamicHeaderTitle>
+</core:FragmentDefinition>

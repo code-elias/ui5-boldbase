@@ -3,36 +3,26 @@ sap.ui.define(
     'eligolam/boldbase/controller/BaseErrorController',
     'eligolam/boldbase/model/formatter',
     'eligolam/boldbase/Modules/routing',
+    'eligolam/boldbase/Modules/tablePersonalization',
     'sap/m/MessageBox',
     'sap/m/MessageToast',
     'sap/ui/model/json/JSONModel',
-    'sap/ui/model/Filter',
-    'sap/ui/model/FilterOperator',
-    'sap/ui/core/BusyIndicator',
+    'sap/ui/table/TablePersoController',
     'sap/m/library'
   ],
-  function (BaseController, formatter, routing, MessageBox, MessageToast, JSONModel, Filter, FilterOperator, BusyIndicator, mobileLibrary) {
+  function (BaseController, formatter, routing, tablePersonalization, MessageBox, MessageToast, JSONModel, TablePersoController, mobileLibrary) {
     'use strict'
-
     var URLHelper = mobileLibrary.URLHelper
 
     return BaseController.extend('eligolam.boldbase.controller.BaseControllerProject', {
       formatter: formatter,
-      onInit: function () {},
+      onInit() { },
 
-      // navigateTo: function (routeName, param) {
-      //   var oRouter = sap.ui.core.UIComponent.getRouterFor(this.getView())
-      //   switch (routeName) {
-      //     default:
-      //       oRouter.navTo(routeName, null)
-      //   }
-      // },
-
-      navigateTo: function (routeName, param) {
+      navigateTo(routeName, param) {
         routing.goTo(routeName, this.getView(), param)
       },
 
-      onHomeTilePress: function (oEvent, route, internal = true) {
+      onHomeTilePress(oEvent, route, internal = true) {
         if (!internal) {
           switch (route) {
             case 'testGet':
@@ -59,7 +49,44 @@ sap.ui.define(
         }
       },
 
-      testCall: function (url) {
+      //#region Shared DOM SAP functions
+      openTablePersonalizationSettings(oEvent, tableName) {
+        // Open a table personalization popup based on tablename
+        if (this._oTPC == undefined) {
+          this._oTPC = tablePersonalization.initTablePersoService(this.byId(tableName))
+        }
+
+        this._oTPC.openDialog()
+      },
+
+      initTablePersoService: function (tableName) {
+        this._oTPC = new TablePersoController({
+          table: this.byId(tableName),
+          // In-memory perso service
+          persoService: {
+            getPersData: function () {
+              var oDeferred = new jQuery.Deferred()
+              oDeferred.resolve(null)
+              return oDeferred.promise()
+            },
+            setPersData: function () {
+              var oDeferred = new jQuery.Deferred()
+              oDeferred.resolve()
+              return oDeferred.promise()
+            },
+            delPersData: function () {
+              var oDeferred = new jQuery.Deferred()
+              oDeferred.resolve()
+              return oDeferred.promise()
+            }
+          }
+        })
+      },
+      //#region Shared DOM SAP functions
+
+
+      //#region TEST 
+      testCall(url) {
         this.getAjaxPromise(url)
           .then((response) => MessageToast.show('SUCCESS'))
           .catch((error) => {
@@ -68,10 +95,11 @@ sap.ui.define(
               if (error.status == 401) {
                 MessageToast.show('UNAUTHORISED')
               }
-            } catch {}
+            } catch { }
           })
-          .finally(() => {})
+          .finally(() => { })
       }
+      //#endregion TEST
     })
   }
 )

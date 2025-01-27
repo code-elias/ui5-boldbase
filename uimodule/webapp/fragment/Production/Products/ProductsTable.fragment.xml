@@ -28,8 +28,20 @@
       <OverflowToolbar id="ProductsTableToolbar" style="Clear">
         <Button
           id="btnNewProduct"
+          icon="sap-icon://add"
           text="{i18n>NEW_PRODUCT}"
           press="onCreateNewProduct"
+        />
+
+        <ToolbarSpacer />
+
+        <ToolbarSeparator />
+
+        <Button
+          icon="sap-icon://action-settings"
+          press=".openTablePersonalizationSettings($event, 'ProductsTable')"
+          tooltip="{i18n>PERSONALIZE_TABLE}"
+          type="Transparent"
         />
       </OverflowToolbar>
     </t:extension>
@@ -38,42 +50,18 @@
     <t:columns>
 
       <!-- ACTION BUTTONS COLUMN -->
-      <t:Column
+      <!-- <t:Column
         id="colActionBtns"
         width="7rem"
         resizable="false"
       >
         <t:template>
-          <HBox
-            id="ActionBtnContainer"
-            justifyContent="SpaceBetween"
-            class="sapUiTinyMarginBeginEnd"
-          >
-            <!-- Delete Button -->
-            <core:Icon
-              id="btnDelete"
-              src="sap-icon://decline"
-              size="1rem"
-              decorative="false"
-              color="Negative"
-              hoverColor="red"
-              tooltip="{i18n>DELETE}"
-              press="onRejectRow"
-            />
-            <!-- Edit Button -->
-            <core:Icon
-              id="btnEdit"
-              src="sap-icon://value-help"
-              size="1rem"
-              decorative="false"
-              color="Marker"
-              hoverColor="lightblue"
-              tooltip="{i18n>EDIT}"
-              press="onEditRow"
-            />
-          </HBox>
+          <core:Fragment
+            type="XML"
+            fragmentName="eligolam.boldbase.fragment.Production.Products.ActionButtons"
+          />
         </t:template>
-      </t:Column>
+      </t:Column> -->
 
       <!-- CODE -->
       <t:Column

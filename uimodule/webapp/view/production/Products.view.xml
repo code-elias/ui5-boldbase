@@ -23,12 +23,12 @@
           <Title id="ProductsPageTitle" text="{i18n>PRODUCTS}" />
         </f:heading>
 
-        <f:navigationActions>
+        <!-- <f:navigationActions>
           <core:Fragment
             fragmentName="eligolam.boldbase.fragment.Production.Products.NavigationActions"
             type="XML"
           />
-        </f:navigationActions>
+        </f:navigationActions> -->
       </f:DynamicPageTitle>
     </f:title>
     <!--#endregion

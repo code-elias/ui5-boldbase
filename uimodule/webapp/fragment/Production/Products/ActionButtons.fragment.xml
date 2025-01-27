@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <HBox
+    id="ActionBtnContainer"
+    justifyContent="SpaceBetween"
+    class="sapUiTinyMarginBeginEnd"
+  >
+    <!-- Delete Button -->
+    <core:Icon
+      id="btnDelete"
+      src="sap-icon://decline"
+      size="1rem"
+      decorative="false"
+      color="Negative"
+      hoverColor="red"
+      tooltip="{i18n>DELETE}"
+      press="onRejectRow"
+    />
+    <!-- Edit Button -->
+    <core:Icon
+      id="btnEdit"
+      src="sap-icon://value-help"
+      size="1rem"
+      decorative="false"
+      color="Marker"
+      hoverColor="lightblue"
+      tooltip="{i18n>EDIT}"
+      press="onEditRow"
+    />
+  </HBox>
+
+</core:FragmentDefinition>

@@ -8,7 +8,7 @@ resources:
       webapp: uimodule/webapp
 framework:
   name: SAPUI5
-  version: '1.120.24'
+  version: '1.120.25'
   libraries:
     - name: sap.f
     - name: sap.m

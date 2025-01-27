@@ -29,7 +29,7 @@ sap.ui.define(
         if (SETTINGS.isProduction) {
           this.loginToApp()
         } else {
-          this.mockLoginToApp()
+          this.mockLoginToApp() // Mock Function while not connected to API
         }
       },
 
@@ -44,7 +44,6 @@ sap.ui.define(
       },
 
       loginToApp() {
-        // BusyIndicator.show(0)
         const oBusyDialog = this.getLoginBusyDialog()
         oBusyDialog.open()
 
@@ -58,13 +57,11 @@ sap.ui.define(
           .then((data) => this.executeLogin(data))
           .catch((error) => this.handleLoginError(error))
           .finally(() => {
-            // BusyIndicator.hide()
             oBusyDialog.close()
           })
       },
 
       executeLogin(data) {
-        // this.setMessageStrip('Success', this.geti18n('LOGIN_USER_OK'), 'loginPage')
         MessageToast.show(this.geti18n('LOGIN_SUCCESS'))
         this.navigateTo('home') // Navigate to home
       },
