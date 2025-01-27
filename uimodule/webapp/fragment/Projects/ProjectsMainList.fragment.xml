@@ -7,6 +7,12 @@
     headerText="{i18n>PROJECTS}"
     items="{ path: 'Projects>/List' }">
 
+    <headerToolbar>
+      <OverflowToolbar>
+        <SearchField liveChange=".onProjectSearch" />
+      </OverflowToolbar>
+    </headerToolbar>
+
     <ObjectListItem
       intro="{Projects>ProjectID}"
       title="{Projects>ProjectName}"
