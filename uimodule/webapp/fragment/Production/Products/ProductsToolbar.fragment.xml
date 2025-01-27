@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <OverflowToolbar id="ProductsToolbar">
+    <ToolbarSpacer />
+
+    <Button
+      id="btnAddProductsToOrder"
+      text="{i18n>ADD_PRODUCTS_TO_ORDER}"
+      type="Emphasized"
+      tooltip="{i18n>ADD_PRODUCTS_TO_ORDER}"
+      press="onAddProductsToOrder"
+    />
+  </OverflowToolbar>
+
+</core:FragmentDefinition>

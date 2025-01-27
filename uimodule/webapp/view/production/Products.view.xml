@@ -48,8 +48,13 @@
     <!--#region
       FOOTER -->
     <f:footer>
+      <!-- <core:Fragment
+        fragmentName="eligolam.boldbase.fragment.Production.Products.CreationToolbar"
+        type="XML"
+      /> -->
+
       <core:Fragment
-        fragmentName="eligolam.boldbase.fragment.Production.Products.Footer"
+        fragmentName="eligolam.boldbase.fragment.Production.Products.ProductsToolbar"
         type="XML"
       />
     </f:footer>
