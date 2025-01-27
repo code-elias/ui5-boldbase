@@ -1,0 +1,37 @@
+<mvc:View
+  controllerName="eligolam.boldbase.controller.project.Projects"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:core="sap.ui.core"
+  displayBlock="true"
+>
+
+  <f:DynamicPage id="ProjectsMainPage"
+    toggleHeaderOnTitleClick="false"
+  >
+
+    <!--#region
+    TITLE -->
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:heading>
+          <Title id="ProjectsPageTitle" text="{i18n>PROJECTS}" />
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <!--#endregion
+    TITLE -->
+
+    <!--#region
+    CONTENT -->
+    <f:content>
+      <core:Fragment fragmentName="eligolam.boldbase.fragment.Projects.ProjectsMainList"
+        type="XML" />
+    </f:content>
+    <!--#endregion
+    CONTENT -->
+
+  </f:DynamicPage>
+
+</mvc:View>

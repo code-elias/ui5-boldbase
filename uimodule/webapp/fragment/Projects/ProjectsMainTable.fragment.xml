@@ -1,0 +1,42 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <Table id="ProjectsTable"
+    mode="SingleSelectMaster"
+    itemPress="onProjectSelect"
+    inset="false"
+    items="{
+      path: 'Projects>/List'
+    }">
+
+    <headerToolbar>
+      <OverflowToolbar>
+        <ToolbarSpacer />
+        <SearchField search="onProjectSearch" />
+      </OverflowToolbar>
+    </headerToolbar>
+
+    <columns>
+      <Column width="12rem">
+        <Label text="{i18n>PROJECT}" design="Bold" />
+      </Column>
+
+      <Column hAlign="End">
+        <Label text="{i18n>CLIENT}" />
+      </Column>
+    </columns>
+
+    <items>
+      <ColumnListItem type="Navigation">
+        <cells>
+          <ObjectIdentifier title="{Projects>ProjectName}" text="{products>ProductId}" />
+          <ObjectIdentifier title="{Projects>ProjectName}" text="{products>ProductId}" />
+        </cells>
+      </ColumnListItem>
+    </items>
+
+  </Table>
+
+</core:FragmentDefinition>

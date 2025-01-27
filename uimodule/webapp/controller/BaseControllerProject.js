@@ -2,7 +2,6 @@ sap.ui.define(
   [
     'eligolam/boldbase/controller/BaseErrorController',
     'eligolam/boldbase/model/formatter',
-    'eligolam/boldbase/Modules/routing',
     'eligolam/boldbase/Modules/tablePersonalization',
     'sap/m/MessageBox',
     'sap/m/MessageToast',
@@ -10,7 +9,7 @@ sap.ui.define(
     'sap/ui/table/TablePersoController',
     'sap/m/library'
   ],
-  function (BaseController, formatter, routing, tablePersonalization, MessageBox, MessageToast, JSONModel, TablePersoController, mobileLibrary) {
+  function (BaseController, formatter, tablePersonalization, MessageBox, MessageToast, JSONModel, TablePersoController, mobileLibrary) {
     'use strict'
     var URLHelper = mobileLibrary.URLHelper
 
@@ -19,7 +18,7 @@ sap.ui.define(
       onInit() { },
 
       navigateTo(routeName, param) {
-        routing.goTo(routeName, this.getView(), param)
+        this.navTo(routeName, param)
       },
 
       onHomeTilePress(oEvent, route, internal = true) {

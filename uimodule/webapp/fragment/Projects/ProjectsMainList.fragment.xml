@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+>
+
+  <List id="ProjectsList"
+    headerText="{i18n>PROJECTS}"
+    items="{ path: 'Projects>/List' }">
+
+    <ObjectListItem
+      intro="{Projects>ProjectID}"
+      title="{Projects>ProjectName}"
+      type="Active"
+      press="onProjectSelect"
+      number="{
+				parts:[ 
+          { path:'Projects>TotalPrice' },
+          'EUR'
+        ],
+				type: 'sap.ui.model.type.Currency',
+				formatOptions: {showMeasure: false}
+			}"
+      numberUnit="EUR">
+      <firstStatus>
+        <ObjectStatus
+          text="{Projects>ProjectStatus}"
+          state="Success" />
+      </firstStatus>
+
+      <ObjectAttribute text="{Projects>ClientName}" />
+    </ObjectListItem>
+
+  </List>
+
+</core:FragmentDefinition>
