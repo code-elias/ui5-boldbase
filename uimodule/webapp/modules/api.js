@@ -6,6 +6,22 @@ const fetchApi = {
       // credentials: 'include',
       body: loginParams
     }).then((response) => _getResponseJson(response))
+  },
+
+  async asyncGet(url) {
+    try {
+      let response = await fetch(url)
+
+      if (!response.ok) {
+        throw new Error(response)
+      }
+
+      let data = await response.json()
+      return data
+    }
+    catch (error) {
+      console.error(error)
+    }
   }
 }
 

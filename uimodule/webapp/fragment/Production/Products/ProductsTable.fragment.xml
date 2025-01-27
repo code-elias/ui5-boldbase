@@ -117,7 +117,7 @@
           <!-- Adjust if your model has the name or ID differently (e.g., 'CategoryName'). -->
           <Label
             id="ProductCategory"
-            text="{Products>ProductCategory}"
+            text="{Products>Category}"
           />
         </t:template>
       </t:Column>
