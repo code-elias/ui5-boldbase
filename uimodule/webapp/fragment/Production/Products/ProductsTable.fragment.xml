@@ -7,6 +7,7 @@
   xmlns:dnd="sap.ui.core.dnd"
   xmlns:layout="sap.ui.layout"
   xmlns:core="sap.ui.core"
+  xmlns:tnt="sap.tnt"
 >
   <t:Table
     id="ProductsTable"
@@ -49,20 +50,6 @@
     <!-- Columns -->
     <t:columns>
 
-      <!-- ACTION BUTTONS COLUMN -->
-      <!-- <t:Column
-        id="colActionBtns"
-        width="7rem"
-        resizable="false"
-      >
-        <t:template>
-          <core:Fragment
-            type="XML"
-            fragmentName="eligolam.boldbase.fragment.Production.Products.ActionButtons"
-          />
-        </t:template>
-      </t:Column> -->
-
       <!-- CODE -->
       <t:Column
         id="colProductCode"
@@ -73,9 +60,10 @@
       >
         <Label id="lblProductCode" text="{i18n>PRODUCT_CODE}" />
         <t:template>
-          <Label
-            id="ProductCode"
+          <ObjectStatus
             text="{Products>Code}"
+            icon="{ path: 'Products>Label', formatter: '.getProductLabelIcon' }"
+            state="{ path: 'Products>Label', formatter: '.getProductLabelState' }"
           />
         </t:template>
       </t:Column>

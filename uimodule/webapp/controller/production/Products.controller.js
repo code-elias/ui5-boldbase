@@ -45,10 +45,12 @@ sap.ui.define(
 
         const oOrders = []
         for (const path of oSet) {
+          this.getProductsModel().setProperty(`${path}/Label`, this.geti18n('ORDER_LABEL'))
           oOrders.push(this.getProductsModel().getProperty(path))
         }
 
         this.setProductsModel('Collection/order', oOrders)
+        MessageToast.show(this.geti18n('ROWS_TO_ORDER_SUCCESS'))
       },
 
       onProductTabChange(oEvent) {
@@ -58,6 +60,18 @@ sap.ui.define(
 
         const oCollection = this.getProductsModel('Collection')
         this.setProductsModel('List', oCollection[selectedTab])
+      },
+
+      getProductLabelVisibility(label) {
+        return this.isValidLabel(label)
+      },
+
+      getProductLabelIcon(label) {
+        return this.isValidLabel(label) ? 'sap-icon://sys-enter' : ''
+      },
+
+      getProductLabelState(label) {
+        return this.isValidLabel(label) ? 'Success' : 'None'
       },
 
       //#region Util: Models and Ids
@@ -92,6 +106,10 @@ sap.ui.define(
 
       getProductsContainer() {
         return this.getView().byId(PRODUCTS_CONTAINER)
+      },
+
+      isValidLabel(label) {
+        return label != null && label.trim() !== ''
       }
       //#endregion Util: Models and Ids
     })
