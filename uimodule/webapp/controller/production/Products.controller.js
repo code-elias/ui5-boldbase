@@ -2,8 +2,8 @@ const PRODUCTS_CONTAINER = 'ProductsTable'
 const PRODUCTS_MODEL = 'Products'
 
 sap.ui.define(
-  ['eligolam/boldbase/controller/BaseControllerProject', 'eligolam/boldbase/Modules/api', 'eligolam/boldbase/Modules/tableUtils', 'eligolam/boldbase/model/Formatter', 'sap/ui/model/json/JSONModel'],
-  function (BaseController, api, tableUtils, Formatter, JSONModel) {
+  ['eligolam/boldbase/controller/BaseControllerProject', 'eligolam/boldbase/Modules/api', 'eligolam/boldbase/Modules/tableUtils', 'eligolam/boldbase/model/Formatter', 'sap/ui/model/json/JSONModel', 'sap/m/MessageToast'],
+  function (BaseController, api, tableUtils, Formatter, JSONModel, MessageToast) {
     'use strict'
 
     return BaseController.extend('eligolam.boldbase.controller.production.Products', {
@@ -17,13 +17,17 @@ sap.ui.define(
       },
       onBeforeRendering() { },
       onAfterRendering() { },
-      _onRouteMatched(oEvent) { this.getProducts() },
+      _onRouteMatched(oEvent) {
+        this.initProductsModel()
+        this.getProducts()
+      },
       //#endregion Setup
 
       //#region Data
       async getProducts() {
         let data = await api.asyncGet('mock/data/products.json')
-        this.setModel(new JSONModel(data), PRODUCTS_MODEL)
+        this.setProductsModel('List', data)
+        this.setProductsModel('Collection', { all: data })
       },
       //#endregion Data
 
@@ -36,11 +40,56 @@ sap.ui.define(
         }
 
         const { selectedBindings, selectedObjects } = tableUtils.getSelectedBindingsFromIndex(oProductsTable, selectedIdx)
+        const oSet = this.getProductsModel('SelectedPaths')
+        selectedBindings.forEach(item => oSet.add(item.sPath));
 
-        // this.addSelectedRowsToOrder(selectedObjects)
+        const oOrders = []
+        for (const path of oSet) {
+          oOrders.push(this.getProductsModel().getProperty(path))
+        }
+
+        this.setProductsModel('Collection/order', oOrders)
+      },
+
+      onProductTabChange(oEvent) {
+        const oSegmentedButton = oEvent.getSource()
+        const selectedTab = oSegmentedButton.getSelectedKey()
+        this.setProductsModel('SelectedTab', selectedTab)
+
+        const oCollection = this.getProductsModel('Collection')
+        this.setProductsModel('List', oCollection[selectedTab])
       },
 
       //#region Util: Models and Ids
+      initProductsModel() {
+        this.setModel(new JSONModel({
+          List: [],
+          SelectedPaths: new Set(),
+          SelectedTab: 'all',
+          Collection: {
+            all: []
+          }
+        }), PRODUCTS_MODEL)
+      },
+
+      getProductsModel(property = '') {
+        if (property == '') {
+          return this.getModel(PRODUCTS_MODEL)
+        }
+        else {
+          return this.getModel(PRODUCTS_MODEL).getProperty(`/${property}`)
+        }
+      },
+
+      setProductsModel(property, data) {
+        if (property == '') {
+          return // Guard Statement
+        }
+        else {
+          return this.getModel(PRODUCTS_MODEL).setProperty(`/${property}`, data)
+        }
+      },
+
       getProductsContainer() {
         return this.getView().byId(PRODUCTS_CONTAINER)
       }

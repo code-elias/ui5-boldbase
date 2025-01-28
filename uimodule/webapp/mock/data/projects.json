@@ -1,1049 +1,1047 @@
-{
-	"List": [
-		{
-				"ProjectID": 1,
-				"ClientName": "Benjamin, Wiggins and Reyes Retail Solutions",
-				"ClientID": "CL-66234",
-				"ProjectName": "Benjamin, Wiggins and Reyes Retail Solutions Smart Monitoring Solution",
-				"EstimatedDelivery": "2025-06-08",
-				"TotalPrice": 197405.63,
-				"Discount": 10,
-				"FinalPrice": 177665.07,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Kristen Stewart",
-				"ContactEmail": "yberry@cook.biz",
-				"ContactPhone": "1699903775",
-				"ProjectScope": "This project focuses on implementing cutting-edge retail solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-2260-40",
-								"Quantity": 19,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-1931-98",
-								"Quantity": 5,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-7133-82",
-								"Quantity": 8,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-1294-43",
-								"Quantity": 16,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8291-12",
-								"Quantity": 20,
-								"DeploymentArea": "Retail Store"
-						}
-				],
-				"Notes": "How police push environment guess.",
-				"RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 2,
-				"ClientName": "Allen-Knox Agriculture Solutions",
-				"ClientID": "CL-79448",
-				"ProjectName": "Allen-Knox Agriculture Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-03-21",
-				"TotalPrice": 272345.6,
-				"Discount": 0,
-				"FinalPrice": 272345.6,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Maurice Smith",
-				"ContactEmail": "ugarcia@miller.com",
-				"ContactPhone": "3898005768",
-				"ProjectScope": "This project focuses on implementing cutting-edge agriculture solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-2260-40",
-								"Quantity": 3,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8291-12",
-								"Quantity": 19,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-6327-13",
-								"Quantity": 16,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-2813-53",
-								"Quantity": 8,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-7133-82",
-								"Quantity": 1,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-6861-44",
-								"Quantity": 19,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-2864-27",
-								"Quantity": 12,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-1727-10",
-								"Quantity": 2,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-3862-32",
-								"Quantity": 17,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-9543-63",
-								"Quantity": 10,
-								"DeploymentArea": "Production Floor"
-						}
-				],
-				"Notes": "Bad support resource commercial growth and.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 3,
-				"ClientName": "Aguilar, Ramirez and Wilcox Pharmaceuticals Solutions",
-				"ClientID": "CL-96601",
-				"ProjectName": "Aguilar, Ramirez and Wilcox Pharmaceuticals Solutions Asset Tracking Deployment",
-				"EstimatedDelivery": "2025-04-27",
-				"TotalPrice": 201718.51,
-				"Discount": 0,
-				"FinalPrice": 201718.51,
-				"ProjectStatus": "Completed",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Amanda Beltran",
-				"ContactEmail": "xbates@smith.net",
-				"ContactPhone": "979.717.0750",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-3862-32",
-								"Quantity": 6,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 19,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-9316-78",
-								"Quantity": 13,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-1599-68",
-								"Quantity": 16,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8131-32",
-								"Quantity": 4,
-								"DeploymentArea": "Production Floor"
-						}
-				],
-				"Notes": "Old require everybody consider operation.",
-				"RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 4,
-				"ClientName": "Mcclure, Edwards and Johnson Pharmaceuticals Solutions",
-				"ClientID": "CL-98944",
-				"ProjectName": "Mcclure, Edwards and Johnson Pharmaceuticals Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-02-18",
-				"TotalPrice": 499073.99,
-				"Discount": 5,
-				"FinalPrice": 474120.29,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Overdue",
-				"ContactPerson": "Debbie Jordan",
-				"ContactEmail": "millermelissa@simon.com",
-				"ContactPhone": "+1-825-403-0500x3060",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-2864-27",
-								"Quantity": 16,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-3920-28",
-								"Quantity": 1,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1727-10",
-								"Quantity": 1,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-6369-43",
-								"Quantity": 10,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8291-12",
-								"Quantity": 17,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-6861-44",
-								"Quantity": 14,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 8,
-								"DeploymentArea": "Data Center"
-						}
-				],
-				"Notes": "Can hard you accept.",
-				"RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 5,
-				"ClientName": "Flores Group Pharmaceuticals Solutions",
-				"ClientID": "CL-63615",
-				"ProjectName": "Flores Group Pharmaceuticals Solutions Automation Implementation",
-				"EstimatedDelivery": "2025-07-07",
-				"TotalPrice": 123606.11,
-				"Discount": 0,
-				"FinalPrice": 123606.11,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Michele Phillips",
-				"ContactEmail": "laurie51@johnson.com",
-				"ContactPhone": "(625)035-2706",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-8544-68",
-								"Quantity": 4,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-7968-68",
-								"Quantity": 8,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-4241-19",
-								"Quantity": 11,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-5391-84",
-								"Quantity": 3,
-								"DeploymentArea": "Field Operations"
-						}
-				],
-				"Notes": "Box anyone contain today loss very.",
-				"RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 6,
-				"ClientName": "Jones, Brown and Lewis Energy Solutions",
-				"ClientID": "CL-74588",
-				"ProjectName": "Jones, Brown and Lewis Energy Solutions Automation Implementation",
-				"EstimatedDelivery": "2025-07-07",
-				"TotalPrice": 389001.17,
-				"Discount": 15,
-				"FinalPrice": 330650.99,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Robert Santos",
-				"ContactEmail": "coconnor@pittman-rodriguez.info",
-				"ContactPhone": "(913)367-7179",
-				"ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 12,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-7440-68",
-								"Quantity": 8,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8297-96",
-								"Quantity": 10,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-7968-68",
-								"Quantity": 15,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-1585-35",
-								"Quantity": 4,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-6861-44",
-								"Quantity": 4,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8545-77",
-								"Quantity": 15,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-5739-39",
-								"Quantity": 13,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-2864-27",
-								"Quantity": 2,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "Specific series wish these.",
-				"RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 7,
-				"ClientName": "Mercer PLC Healthcare Solutions",
-				"ClientID": "CL-85242",
-				"ProjectName": "Mercer PLC Healthcare Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-06-16",
-				"TotalPrice": 389635.9,
-				"Discount": 0,
-				"FinalPrice": 389635.9,
-				"ProjectStatus": "Planning",
-				"PaymentStatus": "Overdue",
-				"ContactPerson": "Tom Harrison",
-				"ContactEmail": "mooretiffany@butler.net",
-				"ContactPhone": "+1-571-099-6545x72575",
-				"ProjectScope": "This project focuses on implementing cutting-edge healthcare solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-2813-53",
-								"Quantity": 13,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-7440-68",
-								"Quantity": 3,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8779-47",
-								"Quantity": 14,
-								"DeploymentArea": "Data Center"
-						}
-				],
-				"Notes": "Federal debate management part.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 8,
-				"ClientName": "Fox-Williams Pharmaceuticals Solutions",
-				"ClientID": "CL-86795",
-				"ProjectName": "Fox-Williams Pharmaceuticals Solutions Asset Tracking Deployment",
-				"EstimatedDelivery": "2025-03-28",
-				"TotalPrice": 338644.12,
-				"Discount": 5,
-				"FinalPrice": 321711.91,
-				"ProjectStatus": "Completed",
-				"PaymentStatus": "Partially Paid",
-				"ContactPerson": "Travis Tate",
-				"ContactEmail": "smithmichael@wise.com",
-				"ContactPhone": "(336)950-7912x172",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-3181-23",
-								"Quantity": 4,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-2436-27",
-								"Quantity": 1,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8779-47",
-								"Quantity": 8,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-9491-91",
-								"Quantity": 7,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-6861-44",
-								"Quantity": 2,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1294-43",
-								"Quantity": 15,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-1010-77",
-								"Quantity": 14,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8605-80",
-								"Quantity": 10,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-3920-28",
-								"Quantity": 4,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-5739-39",
-								"Quantity": 2,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "View source group citizen.",
-				"RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 9,
-				"ClientName": "Silva, Murphy and Parker Automotive Solutions",
-				"ClientID": "CL-17312",
-				"ProjectName": "Silva, Murphy and Parker Automotive Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-07-05",
-				"TotalPrice": 200349.22,
-				"Discount": 5,
-				"FinalPrice": 190331.76,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Kimberly Obrien",
-				"ContactEmail": "janicebrown@turner-pruitt.com",
-				"ContactPhone": "+1-894-334-0621x48972",
-				"ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-3181-23",
-								"Quantity": 19,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-6369-43",
-								"Quantity": 1,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-8536-16",
-								"Quantity": 12,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "Information social pass must law.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 10,
-				"ClientName": "Wise-Reed Energy Solutions",
-				"ClientID": "CL-61945",
-				"ProjectName": "Wise-Reed Energy Solutions Predictive Maintenance System",
-				"EstimatedDelivery": "2025-02-01",
-				"TotalPrice": 106705.09,
-				"Discount": 5,
-				"FinalPrice": 101369.84,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Pending",
-				"ContactPerson": "Hannah Robbins",
-				"ContactEmail": "lisavaughn@price.biz",
-				"ContactPhone": "084-781-4642x5929",
-				"ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-9316-78",
-								"Quantity": 8,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-4223-59",
-								"Quantity": 19,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-8605-80",
-								"Quantity": 1,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-9945-18",
-								"Quantity": 8,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-7133-82",
-								"Quantity": 9,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-9792-82",
-								"Quantity": 5,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 4,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-6369-43",
-								"Quantity": 5,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-5391-84",
-								"Quantity": 6,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-7437-83",
-								"Quantity": 6,
-								"DeploymentArea": "Field Operations"
-						}
-				],
-				"Notes": "Hope term system stuff person late.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 11,
-				"ClientName": "Mills-Smith Telecommunications Solutions",
-				"ClientID": "CL-82786",
-				"ProjectName": "Mills-Smith Telecommunications Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-04-20",
-				"TotalPrice": 264544.01,
-				"Discount": 10,
-				"FinalPrice": 238089.61,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Pending",
-				"ContactPerson": "Leslie Acosta",
-				"ContactEmail": "matthew40@collier-myers.com",
-				"ContactPhone": "477-841-5681x4202",
-				"ProjectScope": "This project focuses on implementing cutting-edge telecommunications solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-7133-82",
-								"Quantity": 20,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-7440-68",
-								"Quantity": 8,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-5739-39",
-								"Quantity": 19,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-2260-40",
-								"Quantity": 19,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-2813-53",
-								"Quantity": 14,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-4039-17",
-								"Quantity": 14,
-								"DeploymentArea": "Production Floor"
-						}
-				],
-				"Notes": "Factor scientist woman speech set.",
-				"RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 12,
-				"ClientName": "Hood Group Retail Solutions",
-				"ClientID": "CL-72847",
-				"ProjectName": "Hood Group Retail Solutions Asset Tracking Deployment",
-				"EstimatedDelivery": "2025-06-02",
-				"TotalPrice": 151538.71,
-				"Discount": 0,
-				"FinalPrice": 151538.71,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Partially Paid",
-				"ContactPerson": "Michael Bryant",
-				"ContactEmail": "phurst@jackson-ruiz.com",
-				"ContactPhone": "234.511.7216",
-				"ProjectScope": "This project focuses on implementing cutting-edge retail solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-1585-35",
-								"Quantity": 4,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-5503-44",
-								"Quantity": 12,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-7968-68",
-								"Quantity": 12,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-8605-80",
-								"Quantity": 17,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-1294-43",
-								"Quantity": 2,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-4039-17",
-								"Quantity": 19,
-								"DeploymentArea": "Production Floor"
-						}
-				],
-				"Notes": "Manage society that thank military establish could.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 13,
-				"ClientName": "Fowler-Evans Pharmaceuticals Solutions",
-				"ClientID": "CL-26808",
-				"ProjectName": "Fowler-Evans Pharmaceuticals Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-06-08",
-				"TotalPrice": 340268.41,
-				"Discount": 10,
-				"FinalPrice": 306241.57,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Partially Paid",
-				"ContactPerson": "Cristian Allen",
-				"ContactEmail": "kgillespie@woodard.com",
-				"ContactPhone": "991-666-4840",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-9543-63",
-								"Quantity": 14,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-2864-27",
-								"Quantity": 7,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-4149-65",
-								"Quantity": 18,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-9316-78",
-								"Quantity": 3,
-								"DeploymentArea": "Data Center"
-						}
-				],
-				"Notes": "Husband avoid anyone involve.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 14,
-				"ClientName": "Andrews-Wells Automotive Solutions",
-				"ClientID": "CL-53730",
-				"ProjectName": "Andrews-Wells Automotive Solutions Smart Monitoring Solution",
-				"EstimatedDelivery": "2025-07-18",
-				"TotalPrice": 194803.69,
-				"Discount": 10,
-				"FinalPrice": 175323.32,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Partially Paid",
-				"ContactPerson": "Evelyn Brown",
-				"ContactEmail": "krameralison@everett-haney.com",
-				"ContactPhone": "234.001.0511x018",
-				"ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 15,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-2813-53",
-								"Quantity": 3,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-8779-47",
-								"Quantity": 9,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-9945-18",
-								"Quantity": 13,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-6861-44",
-								"Quantity": 15,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-1589-75",
-								"Quantity": 6,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-4149-65",
-								"Quantity": 13,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-4241-19",
-								"Quantity": 6,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-9792-82",
-								"Quantity": 14,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-7968-68",
-								"Quantity": 10,
-								"DeploymentArea": "Retail Store"
-						}
-				],
-				"Notes": "Entire base tonight require within.",
-				"RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 15,
-				"ClientName": "Reilly Inc Pharmaceuticals Solutions",
-				"ClientID": "CL-34677",
-				"ProjectName": "Reilly Inc Pharmaceuticals Solutions Predictive Maintenance System",
-				"EstimatedDelivery": "2025-05-29",
-				"TotalPrice": 282862.24,
-				"Discount": 0,
-				"FinalPrice": 282862.24,
-				"ProjectStatus": "Planning",
-				"PaymentStatus": "Partially Paid",
-				"ContactPerson": "Rhonda Shaffer",
-				"ContactEmail": "hesterbrian@anderson.com",
-				"ContactPhone": "(611)476-9658",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-1585-35",
-								"Quantity": 17,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-8131-32",
-								"Quantity": 3,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1727-10",
-								"Quantity": 9,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-4223-59",
-								"Quantity": 9,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-7437-83",
-								"Quantity": 10,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-1912-41",
-								"Quantity": 12,
-								"DeploymentArea": "Field Operations"
-						}
-				],
-				"Notes": "Easy hundred year anything specific.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 16,
-				"ClientName": "Fox Ltd Energy Solutions",
-				"ClientID": "CL-74350",
-				"ProjectName": "Fox Ltd Energy Solutions Smart Monitoring Solution",
-				"EstimatedDelivery": "2025-06-09",
-				"TotalPrice": 69244.28,
-				"Discount": 10,
-				"FinalPrice": 62319.85,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Marcia Jones",
-				"ContactEmail": "weberterri@wright.info",
-				"ContactPhone": "+1-507-437-4148x50313",
-				"ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-9945-18",
-								"Quantity": 14,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8544-68",
-								"Quantity": 15,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-9725-46",
-								"Quantity": 14,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "Mind trade how them meet.",
-				"RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 17,
-				"ClientName": "Martinez, Johnson and Peters Automotive Solutions",
-				"ClientID": "CL-85539",
-				"ProjectName": "Martinez, Johnson and Peters Automotive Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-03-20",
-				"TotalPrice": 82288.31,
-				"Discount": 15,
-				"FinalPrice": 69945.06,
-				"ProjectStatus": "In Progress",
-				"PaymentStatus": "Overdue",
-				"ContactPerson": "Megan Riley",
-				"ContactEmail": "robertdurham@jensen.org",
-				"ContactPhone": "(823)476-1040",
-				"ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-9543-63",
-								"Quantity": 12,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-4039-17",
-								"Quantity": 7,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-8779-47",
-								"Quantity": 9,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-8291-12",
-								"Quantity": 13,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-5503-44",
-								"Quantity": 2,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-7437-83",
-								"Quantity": 20,
-								"DeploymentArea": "Field Operations"
-						}
-				],
-				"Notes": "Scientist wife TV either they my social argue.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 18,
-				"ClientName": "Rios-Martinez Agriculture Solutions",
-				"ClientID": "CL-34896",
-				"ProjectName": "Rios-Martinez Agriculture Solutions IoT Deployment",
-				"EstimatedDelivery": "2025-04-30",
-				"TotalPrice": 362314.79,
-				"Discount": 15,
-				"FinalPrice": 307967.57,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Paid",
-				"ContactPerson": "Theresa Adams",
-				"ContactEmail": "scott96@harris.com",
-				"ContactPhone": "527.589.3445x979",
-				"ProjectScope": "This project focuses on implementing cutting-edge agriculture solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-8297-96",
-								"Quantity": 16,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-9316-78",
-								"Quantity": 13,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-8605-80",
-								"Quantity": 5,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-2864-27",
-								"Quantity": 5,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-9945-18",
-								"Quantity": 20,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1294-43",
-								"Quantity": 2,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-3181-23",
-								"Quantity": 10,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "Information speak section voice.",
-				"RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 19,
-				"ClientName": "Elliott, Johnson and Harvey Pharmaceuticals Solutions",
-				"ClientID": "CL-26504",
-				"ProjectName": "Elliott, Johnson and Harvey Pharmaceuticals Solutions Asset Tracking Deployment",
-				"EstimatedDelivery": "2025-04-26",
-				"TotalPrice": 85731.48,
-				"Discount": 10,
-				"FinalPrice": 77158.33,
-				"ProjectStatus": "On Hold",
-				"PaymentStatus": "Pending",
-				"ContactPerson": "Brian Mosley",
-				"ContactEmail": "ryanchristina@taylor.com",
-				"ContactPhone": "148.230.6717x65538",
-				"ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-6369-43",
-								"Quantity": 16,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-9915-21",
-								"Quantity": 1,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1931-98",
-								"Quantity": 15,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-3920-28",
-								"Quantity": 3,
-								"DeploymentArea": "Warehouse"
-						},
-						{
-								"ProductCode": "PROD-8965-78",
-								"Quantity": 3,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-1727-10",
-								"Quantity": 20,
-								"DeploymentArea": "Data Center"
-						},
-						{
-								"ProductCode": "PROD-8536-16",
-								"Quantity": 3,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-5739-39",
-								"Quantity": 17,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-8779-47",
-								"Quantity": 15,
-								"DeploymentArea": "Production Floor"
-						}
-				],
-				"Notes": "Mind me meet the.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		},
-		{
-				"ProjectID": 20,
-				"ClientName": "Herman, Foley and Avila Automotive Solutions",
-				"ClientID": "CL-58637",
-				"ProjectName": "Herman, Foley and Avila Automotive Solutions Smart Monitoring Solution",
-				"EstimatedDelivery": "2025-03-04",
-				"TotalPrice": 105588.31,
-				"Discount": 5,
-				"FinalPrice": 100308.89,
-				"ProjectStatus": "Completed",
-				"PaymentStatus": "Pending",
-				"ContactPerson": "Alfred Martin",
-				"ContactEmail": "harrischristopher@knox-jackson.net",
-				"ContactPhone": "041.520.4992",
-				"ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
-				"ProductsIncluded": [
-						{
-								"ProductCode": "PROD-1599-68",
-								"Quantity": 5,
-								"DeploymentArea": "Retail Store"
-						},
-						{
-								"ProductCode": "PROD-3862-32",
-								"Quantity": 4,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-3121-16",
-								"Quantity": 7,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-9316-78",
-								"Quantity": 11,
-								"DeploymentArea": "Field Operations"
-						},
-						{
-								"ProductCode": "PROD-8131-32",
-								"Quantity": 19,
-								"DeploymentArea": "Production Floor"
-						},
-						{
-								"ProductCode": "PROD-4039-17",
-								"Quantity": 11,
-								"DeploymentArea": "Warehouse"
-						}
-				],
-				"Notes": "Commercial or soldier space military now partner.",
-				"RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
-		}
-	]
-}
+[
+  {
+    "ProjectID": 1,
+    "ClientName": "Benjamin, Wiggins and Reyes Retail Solutions",
+    "ClientID": "CL-66234",
+    "ProjectName": "Benjamin, Wiggins and Reyes Retail Solutions Smart Monitoring Solution",
+    "EstimatedDelivery": "2025-06-08",
+    "TotalPrice": 197405.63,
+    "Discount": 10,
+    "FinalPrice": 177665.07,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Kristen Stewart",
+    "ContactEmail": "yberry@cook.biz",
+    "ContactPhone": "1699903775",
+    "ProjectScope": "This project focuses on implementing cutting-edge retail solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-2260-40",
+        "Quantity": 19,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-1931-98",
+        "Quantity": 5,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-7133-82",
+        "Quantity": 8,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-1294-43",
+        "Quantity": 16,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8291-12",
+        "Quantity": 20,
+        "DeploymentArea": "Retail Store"
+      }
+    ],
+    "Notes": "How police push environment guess.",
+    "RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 2,
+    "ClientName": "Allen-Knox Agriculture Solutions",
+    "ClientID": "CL-79448",
+    "ProjectName": "Allen-Knox Agriculture Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-03-21",
+    "TotalPrice": 272345.6,
+    "Discount": 0,
+    "FinalPrice": 272345.6,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Maurice Smith",
+    "ContactEmail": "ugarcia@miller.com",
+    "ContactPhone": "3898005768",
+    "ProjectScope": "This project focuses on implementing cutting-edge agriculture solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-2260-40",
+        "Quantity": 3,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8291-12",
+        "Quantity": 19,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-6327-13",
+        "Quantity": 16,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-2813-53",
+        "Quantity": 8,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-7133-82",
+        "Quantity": 1,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-6861-44",
+        "Quantity": 19,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-2864-27",
+        "Quantity": 12,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-1727-10",
+        "Quantity": 2,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-3862-32",
+        "Quantity": 17,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-9543-63",
+        "Quantity": 10,
+        "DeploymentArea": "Production Floor"
+      }
+    ],
+    "Notes": "Bad support resource commercial growth and.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 3,
+    "ClientName": "Aguilar, Ramirez and Wilcox Pharmaceuticals Solutions",
+    "ClientID": "CL-96601",
+    "ProjectName": "Aguilar, Ramirez and Wilcox Pharmaceuticals Solutions Asset Tracking Deployment",
+    "EstimatedDelivery": "2025-04-27",
+    "TotalPrice": 201718.51,
+    "Discount": 0,
+    "FinalPrice": 201718.51,
+    "ProjectStatus": "Completed",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Amanda Beltran",
+    "ContactEmail": "xbates@smith.net",
+    "ContactPhone": "979.717.0750",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-3862-32",
+        "Quantity": 6,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 19,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-9316-78",
+        "Quantity": 13,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-1599-68",
+        "Quantity": 16,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8131-32",
+        "Quantity": 4,
+        "DeploymentArea": "Production Floor"
+      }
+    ],
+    "Notes": "Old require everybody consider operation.",
+    "RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 4,
+    "ClientName": "Mcclure, Edwards and Johnson Pharmaceuticals Solutions",
+    "ClientID": "CL-98944",
+    "ProjectName": "Mcclure, Edwards and Johnson Pharmaceuticals Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-02-18",
+    "TotalPrice": 499073.99,
+    "Discount": 5,
+    "FinalPrice": 474120.29,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Overdue",
+    "ContactPerson": "Debbie Jordan",
+    "ContactEmail": "millermelissa@simon.com",
+    "ContactPhone": "+1-825-403-0500x3060",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-2864-27",
+        "Quantity": 16,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-3920-28",
+        "Quantity": 1,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1727-10",
+        "Quantity": 1,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-6369-43",
+        "Quantity": 10,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8291-12",
+        "Quantity": 17,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-6861-44",
+        "Quantity": 14,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 8,
+        "DeploymentArea": "Data Center"
+      }
+    ],
+    "Notes": "Can hard you accept.",
+    "RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 5,
+    "ClientName": "Flores Group Pharmaceuticals Solutions",
+    "ClientID": "CL-63615",
+    "ProjectName": "Flores Group Pharmaceuticals Solutions Automation Implementation",
+    "EstimatedDelivery": "2025-07-07",
+    "TotalPrice": 123606.11,
+    "Discount": 0,
+    "FinalPrice": 123606.11,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Michele Phillips",
+    "ContactEmail": "laurie51@johnson.com",
+    "ContactPhone": "(625)035-2706",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-8544-68",
+        "Quantity": 4,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-7968-68",
+        "Quantity": 8,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-4241-19",
+        "Quantity": 11,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-5391-84",
+        "Quantity": 3,
+        "DeploymentArea": "Field Operations"
+      }
+    ],
+    "Notes": "Box anyone contain today loss very.",
+    "RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 6,
+    "ClientName": "Jones, Brown and Lewis Energy Solutions",
+    "ClientID": "CL-74588",
+    "ProjectName": "Jones, Brown and Lewis Energy Solutions Automation Implementation",
+    "EstimatedDelivery": "2025-07-07",
+    "TotalPrice": 389001.17,
+    "Discount": 15,
+    "FinalPrice": 330650.99,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Robert Santos",
+    "ContactEmail": "coconnor@pittman-rodriguez.info",
+    "ContactPhone": "(913)367-7179",
+    "ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 12,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-7440-68",
+        "Quantity": 8,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8297-96",
+        "Quantity": 10,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-7968-68",
+        "Quantity": 15,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-1585-35",
+        "Quantity": 4,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-6861-44",
+        "Quantity": 4,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8545-77",
+        "Quantity": 15,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-5739-39",
+        "Quantity": 13,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-2864-27",
+        "Quantity": 2,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "Specific series wish these.",
+    "RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 7,
+    "ClientName": "Mercer PLC Healthcare Solutions",
+    "ClientID": "CL-85242",
+    "ProjectName": "Mercer PLC Healthcare Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-06-16",
+    "TotalPrice": 389635.9,
+    "Discount": 0,
+    "FinalPrice": 389635.9,
+    "ProjectStatus": "Planning",
+    "PaymentStatus": "Overdue",
+    "ContactPerson": "Tom Harrison",
+    "ContactEmail": "mooretiffany@butler.net",
+    "ContactPhone": "+1-571-099-6545x72575",
+    "ProjectScope": "This project focuses on implementing cutting-edge healthcare solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-2813-53",
+        "Quantity": 13,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-7440-68",
+        "Quantity": 3,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8779-47",
+        "Quantity": 14,
+        "DeploymentArea": "Data Center"
+      }
+    ],
+    "Notes": "Federal debate management part.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 8,
+    "ClientName": "Fox-Williams Pharmaceuticals Solutions",
+    "ClientID": "CL-86795",
+    "ProjectName": "Fox-Williams Pharmaceuticals Solutions Asset Tracking Deployment",
+    "EstimatedDelivery": "2025-03-28",
+    "TotalPrice": 338644.12,
+    "Discount": 5,
+    "FinalPrice": 321711.91,
+    "ProjectStatus": "Completed",
+    "PaymentStatus": "Partially Paid",
+    "ContactPerson": "Travis Tate",
+    "ContactEmail": "smithmichael@wise.com",
+    "ContactPhone": "(336)950-7912x172",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-3181-23",
+        "Quantity": 4,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-2436-27",
+        "Quantity": 1,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8779-47",
+        "Quantity": 8,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-9491-91",
+        "Quantity": 7,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-6861-44",
+        "Quantity": 2,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1294-43",
+        "Quantity": 15,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-1010-77",
+        "Quantity": 14,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8605-80",
+        "Quantity": 10,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-3920-28",
+        "Quantity": 4,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-5739-39",
+        "Quantity": 2,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "View source group citizen.",
+    "RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 9,
+    "ClientName": "Silva, Murphy and Parker Automotive Solutions",
+    "ClientID": "CL-17312",
+    "ProjectName": "Silva, Murphy and Parker Automotive Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-07-05",
+    "TotalPrice": 200349.22,
+    "Discount": 5,
+    "FinalPrice": 190331.76,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Kimberly Obrien",
+    "ContactEmail": "janicebrown@turner-pruitt.com",
+    "ContactPhone": "+1-894-334-0621x48972",
+    "ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-3181-23",
+        "Quantity": 19,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-6369-43",
+        "Quantity": 1,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-8536-16",
+        "Quantity": 12,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "Information social pass must law.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 10,
+    "ClientName": "Wise-Reed Energy Solutions",
+    "ClientID": "CL-61945",
+    "ProjectName": "Wise-Reed Energy Solutions Predictive Maintenance System",
+    "EstimatedDelivery": "2025-02-01",
+    "TotalPrice": 106705.09,
+    "Discount": 5,
+    "FinalPrice": 101369.84,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Pending",
+    "ContactPerson": "Hannah Robbins",
+    "ContactEmail": "lisavaughn@price.biz",
+    "ContactPhone": "084-781-4642x5929",
+    "ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-9316-78",
+        "Quantity": 8,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-4223-59",
+        "Quantity": 19,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-8605-80",
+        "Quantity": 1,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-9945-18",
+        "Quantity": 8,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-7133-82",
+        "Quantity": 9,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-9792-82",
+        "Quantity": 5,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 4,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-6369-43",
+        "Quantity": 5,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-5391-84",
+        "Quantity": 6,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-7437-83",
+        "Quantity": 6,
+        "DeploymentArea": "Field Operations"
+      }
+    ],
+    "Notes": "Hope term system stuff person late.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 11,
+    "ClientName": "Mills-Smith Telecommunications Solutions",
+    "ClientID": "CL-82786",
+    "ProjectName": "Mills-Smith Telecommunications Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-04-20",
+    "TotalPrice": 264544.01,
+    "Discount": 10,
+    "FinalPrice": 238089.61,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Pending",
+    "ContactPerson": "Leslie Acosta",
+    "ContactEmail": "matthew40@collier-myers.com",
+    "ContactPhone": "477-841-5681x4202",
+    "ProjectScope": "This project focuses on implementing cutting-edge telecommunications solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-7133-82",
+        "Quantity": 20,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-7440-68",
+        "Quantity": 8,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-5739-39",
+        "Quantity": 19,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-2260-40",
+        "Quantity": 19,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-2813-53",
+        "Quantity": 14,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-4039-17",
+        "Quantity": 14,
+        "DeploymentArea": "Production Floor"
+      }
+    ],
+    "Notes": "Factor scientist woman speech set.",
+    "RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 12,
+    "ClientName": "Hood Group Retail Solutions",
+    "ClientID": "CL-72847",
+    "ProjectName": "Hood Group Retail Solutions Asset Tracking Deployment",
+    "EstimatedDelivery": "2025-06-02",
+    "TotalPrice": 151538.71,
+    "Discount": 0,
+    "FinalPrice": 151538.71,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Partially Paid",
+    "ContactPerson": "Michael Bryant",
+    "ContactEmail": "phurst@jackson-ruiz.com",
+    "ContactPhone": "234.511.7216",
+    "ProjectScope": "This project focuses on implementing cutting-edge retail solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-1585-35",
+        "Quantity": 4,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-5503-44",
+        "Quantity": 12,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-7968-68",
+        "Quantity": 12,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-8605-80",
+        "Quantity": 17,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-1294-43",
+        "Quantity": 2,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-4039-17",
+        "Quantity": 19,
+        "DeploymentArea": "Production Floor"
+      }
+    ],
+    "Notes": "Manage society that thank military establish could.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 13,
+    "ClientName": "Fowler-Evans Pharmaceuticals Solutions",
+    "ClientID": "CL-26808",
+    "ProjectName": "Fowler-Evans Pharmaceuticals Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-06-08",
+    "TotalPrice": 340268.41,
+    "Discount": 10,
+    "FinalPrice": 306241.57,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Partially Paid",
+    "ContactPerson": "Cristian Allen",
+    "ContactEmail": "kgillespie@woodard.com",
+    "ContactPhone": "991-666-4840",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-9543-63",
+        "Quantity": 14,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-2864-27",
+        "Quantity": 7,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-4149-65",
+        "Quantity": 18,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-9316-78",
+        "Quantity": 3,
+        "DeploymentArea": "Data Center"
+      }
+    ],
+    "Notes": "Husband avoid anyone involve.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 14,
+    "ClientName": "Andrews-Wells Automotive Solutions",
+    "ClientID": "CL-53730",
+    "ProjectName": "Andrews-Wells Automotive Solutions Smart Monitoring Solution",
+    "EstimatedDelivery": "2025-07-18",
+    "TotalPrice": 194803.69,
+    "Discount": 10,
+    "FinalPrice": 175323.32,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Partially Paid",
+    "ContactPerson": "Evelyn Brown",
+    "ContactEmail": "krameralison@everett-haney.com",
+    "ContactPhone": "234.001.0511x018",
+    "ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 15,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-2813-53",
+        "Quantity": 3,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-8779-47",
+        "Quantity": 9,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-9945-18",
+        "Quantity": 13,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-6861-44",
+        "Quantity": 15,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-1589-75",
+        "Quantity": 6,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-4149-65",
+        "Quantity": 13,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-4241-19",
+        "Quantity": 6,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-9792-82",
+        "Quantity": 14,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-7968-68",
+        "Quantity": 10,
+        "DeploymentArea": "Retail Store"
+      }
+    ],
+    "Notes": "Entire base tonight require within.",
+    "RiskAssessment": "Potential risks include regulatory compliance issues. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 15,
+    "ClientName": "Reilly Inc Pharmaceuticals Solutions",
+    "ClientID": "CL-34677",
+    "ProjectName": "Reilly Inc Pharmaceuticals Solutions Predictive Maintenance System",
+    "EstimatedDelivery": "2025-05-29",
+    "TotalPrice": 282862.24,
+    "Discount": 0,
+    "FinalPrice": 282862.24,
+    "ProjectStatus": "Planning",
+    "PaymentStatus": "Partially Paid",
+    "ContactPerson": "Rhonda Shaffer",
+    "ContactEmail": "hesterbrian@anderson.com",
+    "ContactPhone": "(611)476-9658",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-1585-35",
+        "Quantity": 17,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-8131-32",
+        "Quantity": 3,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1727-10",
+        "Quantity": 9,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-4223-59",
+        "Quantity": 9,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-7437-83",
+        "Quantity": 10,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-1912-41",
+        "Quantity": 12,
+        "DeploymentArea": "Field Operations"
+      }
+    ],
+    "Notes": "Easy hundred year anything specific.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 16,
+    "ClientName": "Fox Ltd Energy Solutions",
+    "ClientID": "CL-74350",
+    "ProjectName": "Fox Ltd Energy Solutions Smart Monitoring Solution",
+    "EstimatedDelivery": "2025-06-09",
+    "TotalPrice": 69244.28,
+    "Discount": 10,
+    "FinalPrice": 62319.85,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Marcia Jones",
+    "ContactEmail": "weberterri@wright.info",
+    "ContactPhone": "+1-507-437-4148x50313",
+    "ProjectScope": "This project focuses on implementing cutting-edge energy solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-9945-18",
+        "Quantity": 14,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8544-68",
+        "Quantity": 15,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-9725-46",
+        "Quantity": 14,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "Mind trade how them meet.",
+    "RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 17,
+    "ClientName": "Martinez, Johnson and Peters Automotive Solutions",
+    "ClientID": "CL-85539",
+    "ProjectName": "Martinez, Johnson and Peters Automotive Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-03-20",
+    "TotalPrice": 82288.31,
+    "Discount": 15,
+    "FinalPrice": 69945.06,
+    "ProjectStatus": "In Progress",
+    "PaymentStatus": "Overdue",
+    "ContactPerson": "Megan Riley",
+    "ContactEmail": "robertdurham@jensen.org",
+    "ContactPhone": "(823)476-1040",
+    "ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-9543-63",
+        "Quantity": 12,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-4039-17",
+        "Quantity": 7,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-8779-47",
+        "Quantity": 9,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-8291-12",
+        "Quantity": 13,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-5503-44",
+        "Quantity": 2,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-7437-83",
+        "Quantity": 20,
+        "DeploymentArea": "Field Operations"
+      }
+    ],
+    "Notes": "Scientist wife TV either they my social argue.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 18,
+    "ClientName": "Rios-Martinez Agriculture Solutions",
+    "ClientID": "CL-34896",
+    "ProjectName": "Rios-Martinez Agriculture Solutions IoT Deployment",
+    "EstimatedDelivery": "2025-04-30",
+    "TotalPrice": 362314.79,
+    "Discount": 15,
+    "FinalPrice": 307967.57,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Paid",
+    "ContactPerson": "Theresa Adams",
+    "ContactEmail": "scott96@harris.com",
+    "ContactPhone": "527.589.3445x979",
+    "ProjectScope": "This project focuses on implementing cutting-edge agriculture solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-8297-96",
+        "Quantity": 16,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-9316-78",
+        "Quantity": 13,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-8605-80",
+        "Quantity": 5,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-2864-27",
+        "Quantity": 5,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-9945-18",
+        "Quantity": 20,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1294-43",
+        "Quantity": 2,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-3181-23",
+        "Quantity": 10,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "Information speak section voice.",
+    "RiskAssessment": "Potential risks include supply chain delays. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 19,
+    "ClientName": "Elliott, Johnson and Harvey Pharmaceuticals Solutions",
+    "ClientID": "CL-26504",
+    "ProjectName": "Elliott, Johnson and Harvey Pharmaceuticals Solutions Asset Tracking Deployment",
+    "EstimatedDelivery": "2025-04-26",
+    "TotalPrice": 85731.48,
+    "Discount": 10,
+    "FinalPrice": 77158.33,
+    "ProjectStatus": "On Hold",
+    "PaymentStatus": "Pending",
+    "ContactPerson": "Brian Mosley",
+    "ContactEmail": "ryanchristina@taylor.com",
+    "ContactPhone": "148.230.6717x65538",
+    "ProjectScope": "This project focuses on implementing cutting-edge pharmaceuticals solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-6369-43",
+        "Quantity": 16,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-9915-21",
+        "Quantity": 1,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1931-98",
+        "Quantity": 15,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-3920-28",
+        "Quantity": 3,
+        "DeploymentArea": "Warehouse"
+      },
+      {
+        "ProductCode": "PROD-8965-78",
+        "Quantity": 3,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-1727-10",
+        "Quantity": 20,
+        "DeploymentArea": "Data Center"
+      },
+      {
+        "ProductCode": "PROD-8536-16",
+        "Quantity": 3,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-5739-39",
+        "Quantity": 17,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-8779-47",
+        "Quantity": 15,
+        "DeploymentArea": "Production Floor"
+      }
+    ],
+    "Notes": "Mind me meet the.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  },
+  {
+    "ProjectID": 20,
+    "ClientName": "Herman, Foley and Avila Automotive Solutions",
+    "ClientID": "CL-58637",
+    "ProjectName": "Herman, Foley and Avila Automotive Solutions Smart Monitoring Solution",
+    "EstimatedDelivery": "2025-03-04",
+    "TotalPrice": 105588.31,
+    "Discount": 5,
+    "FinalPrice": 100308.89,
+    "ProjectStatus": "Completed",
+    "PaymentStatus": "Pending",
+    "ContactPerson": "Alfred Martin",
+    "ContactEmail": "harrischristopher@knox-jackson.net",
+    "ContactPhone": "041.520.4992",
+    "ProjectScope": "This project focuses on implementing cutting-edge automotive solutions using IoT devices and automation technologies to optimize operational efficiency and reduce costs.",
+    "ProductsIncluded": [
+      {
+        "ProductCode": "PROD-1599-68",
+        "Quantity": 5,
+        "DeploymentArea": "Retail Store"
+      },
+      {
+        "ProductCode": "PROD-3862-32",
+        "Quantity": 4,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-3121-16",
+        "Quantity": 7,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-9316-78",
+        "Quantity": 11,
+        "DeploymentArea": "Field Operations"
+      },
+      {
+        "ProductCode": "PROD-8131-32",
+        "Quantity": 19,
+        "DeploymentArea": "Production Floor"
+      },
+      {
+        "ProductCode": "PROD-4039-17",
+        "Quantity": 11,
+        "DeploymentArea": "Warehouse"
+      }
+    ],
+    "Notes": "Commercial or soldier space military now partner.",
+    "RiskAssessment": "Potential risks include technical failures. Mitigation strategies include proactive monitoring and agile response plans."
+  }
+]
